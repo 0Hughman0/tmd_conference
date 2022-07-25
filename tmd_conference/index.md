@@ -60,7 +60,7 @@ introduction: |
 	</article>
 	<article class="entry">
 		<h1 class="entry-title">
-			Imaging and characterization
+			Imaging and characterization!!!
 		</h1>
 		<img class="entry-image u-photo" src="/assets/topic_icon_example.jpg"/>
 	</article>
