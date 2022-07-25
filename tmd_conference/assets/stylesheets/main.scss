@@ -12,3 +12,23 @@
 div .inner {
 	max-width: inherit;
 }
+
+div .menu-item {
+	display: inline-flex;
+	padding-left: 0.5vw;
+	padding-right: 0.5vw;
+}
+
+div .menu-item:hover{
+   background-color: #cccccc;
+}
+
+div .menu-main-navigation {
+	display: flex;
+}
+
+div .hr-navbar {
+	margin-bottom: 1.5vw;
+	margin-top: 1.5vw;
+	margin-left: 1.5vw;
+}
