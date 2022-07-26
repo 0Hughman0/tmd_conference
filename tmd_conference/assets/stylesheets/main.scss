@@ -14,21 +14,37 @@ div .inner {
 }
 
 div .menu-item {
-	display: inline-flex;
 	padding-left: 0.5vw;
 	padding-right: 0.5vw;
+	flex-grow: 1;
 }
 
 div .menu-item:hover{
    background-color: #cccccc;
 }
 
-div .menu-main-navigation {
+div #menu-main-navigation {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 div .hr-navbar {
 	margin-bottom: 1.5vw;
 	margin-top: 1.5vw;
 	margin-left: 1.5vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div .hr-navbar-buttonbox {
+	padding-right: 0.5vw;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	align-self: flex-end;
+}
+
+div .hr-titlebox {
+	flex-grow: 1;
+	flex-basis: 500px;
 }

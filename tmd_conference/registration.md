@@ -4,15 +4,42 @@ title: Registration
 permalink: /registration/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Registration - Will Begin in September
+======================================
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Conference Fees
+---------------
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### Early Bird Registration (Before March 1, 2023)
 
 
-[jekyll-organization]: https://github.com/jekyll
+| Position    |        Fee                          |   
+|------------------- |---------------------------------|
+| Academics & PDRAs |  £450 |
+| Students         |   £300 |
+
+### Late Registration (After March 1, 2023)
+
+  |Position           | Fee                             |
+  |-------------------| ---------------------------------|
+  |Academics & PDRAs  | £500 |
+  |Students           | £350 |
+
+### Registration will cover:
+
+-   Sunday, June 25: Welcome Reception in Churchill College with Food
+    and Drinks
+
+-   Monday, June 26 -- Thursday, June 29th:\
+    Coffee/Tea with Pastries in the Mornings and Afternoons
+
+-   Monday, June 26 -- Thursday, June 29th: Sit down lunch in Churchill
+    College Dining Hall
+
+-   Monday, June 26 -- Tuesday, June 29th: Sit down dinner in Churchill
+    College Dining Hall
+
+-   Wednesday, June 29th: Gala Dinner for All Attendees
+
+**In case of any problems with online payment, on-site payment will be
+available.**
