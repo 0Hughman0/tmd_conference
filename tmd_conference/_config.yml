@@ -36,4 +36,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+encoding: utf-8
 # HR for basically-basic
