@@ -2,9 +2,7 @@
 
 <header id="masthead">
   <div class="hr-navbar">
-    <div class="title-area">
-	  {% include navigation.html %}
-	  <!--
+	<div class="hr-titlebox">
       {% if page.url == '/' %}
         <h1 class="site-title">
           <a href="{{ '/' | relative_url }}">
@@ -20,12 +18,13 @@
           </a>
         </p>
       {% endif %}
-	  -->
-    </div>
-	
+	</div>
+	<div class="hr-navbar-buttonbox">
+	  {% include navigation.html %}
+	</div>
+
 	<!--
 	{% include contact-list.html %}
-	-->
-	
+	-->	
   </div>
 </header>

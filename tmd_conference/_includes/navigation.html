@@ -1,11 +1,12 @@
 <nav id="primary-nav" class="inner" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
   <ul id="menu-main-navigation" class="menu">
     <!-- Home link -->
-    <li class="menu-item site-title">
-      <a href="{{ '/' | relative_url }}" itemprop="url">
-        <span itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
-      </a>
-    </li>
+	<a href="{{ '/' | relative_url }}" itemprop="url">
+		<li class="menu-item site-title">      
+			<span itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
+		</li>
+	</a>
+	
 
     <!-- site.pages links -->
     {% assign default_paths = site.pages | map: "path" %}
@@ -14,11 +15,11 @@
     {% for path in page_paths %}
       {% assign my_page = site.pages | where: "path", path | first %}
 	  {% if my_page.title %}
-        <li class="menu-item site-title">
-          <a href="{{ my_page.url | relative_url }}" itemprop="url">
-            <span itemprop="name">{{ my_page.title | escape }}</span>
-          </a>
-        </li>
+		<a href="{{ my_page.url | relative_url }}" itemprop="url">
+			<li class="menu-item site-title">
+				<span itemprop="name">{{ my_page.title | escape }}</span>
+			</li>
+		</a>
       {% endif %}
     {% endfor %}
   </ul>
