@@ -51,6 +51,7 @@ google_fonts:
 navigation_pages:
   - invited_speakers.md
   - program.md
-  - abstract_submission.md
+#  - abstract_submission.md  # not ready
+  - registration.md
 
   
