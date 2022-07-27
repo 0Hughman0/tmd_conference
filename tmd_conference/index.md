@@ -19,53 +19,62 @@ introduction: |
 	<article class="entry">
 		<h1 class="entry-title">
 			Wafer scale synthesis of TMDs
+
 		</h1>
-		<img class="entry-image u-photo" src="/assets/topic_icon_example.jpg"/>
+		
 	</article>
 	<article class="entry">
 		<h1 class="entry-title">
 			2D TMDs for novel logic, memory and interconnects
+
 		</h1>
-		<img class="entry-image u-photo" src="/assets/topic_icon_example.jpg"/>
+		
 	</article>
 	<article class="entry">
 		<h1 class="entry-title">
 			2D TMDs for excitonic, plasmonic and other photonic devices
+
 		</h1>
-		<img class="entry-image u-photo" src="/assets/topic_icon_example.jpg"/>
+		
 	</article>
 	<article class="entry">
 		<h1 class="entry-title">
 			Van der Waals heterostructures of TMDs
+
 		</h1>
-		<img class="entry-image u-photo" src="/assets/topic_icon_example.jpg"/>
+		
 	</article>
 	<article class="entry">
 		<h1 class="entry-title">
 			Engineering quantum states in 2D TMDs and sensing with them
+
 		</h1>
-		<img class="entry-image u-photo" src="/assets/topic_icon_example.jpg"/>
+		
 	</article>
 	<article class="entry">
 		<h1 class="entry-title">
 			2D TMDs for energy conversion and storage 
+
 		</h1>
-		<img class="entry-image u-photo" src="/assets/topic_icon_example.jpg"/>
+		
 	</article>
 	<article class="entry">
 		<h1 class="entry-title">
 			Defect engineering and catalysis with 2D TMDs
+
 		</h1>
-		<img class="entry-image u-photo" src="/assets/topic_icon_example.jpg"/>
+		
 	</article>
 	<article class="entry">
 		<h1 class="entry-title">
-			Imaging and characterization!!!
+			Imaging and characterization
+
 		</h1>
-		<img class="entry-image u-photo" src="/assets/topic_icon_example.jpg"/>
+		
 	</article>
 	
 </div>
+
 
 ## Plenary Speakers
 <div class="entries-grid">
