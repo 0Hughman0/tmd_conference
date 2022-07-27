@@ -67,50 +67,15 @@ introduction: |
 	
 </div>
 
-## Invited Speakers
-
+## Plenary Speakers
 <div class="entries-grid">
-	<article class="entry">
-		<h1 class="entry-title">
-			Person 1
-		</h1>
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Person 2
-		</h1>
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Person 3
-		</h1>
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Person 4
-		</h1>
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Person 5
-		</h1>
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Person 6
-		</h1>
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Person 7
-		</h1>
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Person 8
-		</h1>
-	</article>
-	
-<div>
+{% for pair in site.data.plenaries %}
 
+	<article class="entry">
+		<img src="/assets/Plenary Speakers/{{ pair["Name"] }}.jpg" height="200" width="200" style="border-radius:50%">
+        <em>{{ pair["Name"] }}</em>
+        <em>{{ pair["Institute"] }}</em>
+	</article>
+{% endfor %}
+</div>
 
