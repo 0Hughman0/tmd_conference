@@ -8,6 +8,7 @@ Rooms will be available in Churchill College and participants of 2D TMD 2023 wil
 <br>
 <br>
 Hotels and guest rooms are also available to be booked in city center and surroundings of Cambridge. Some additional accommodation options around Cambridge are: 
+
  
 ## Hotels
 <div class="entries-grid">
