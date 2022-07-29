@@ -9,6 +9,7 @@
 
 @import "basically-basic";
 
+
 div .inner {
 	max-width: inherit;
 }
@@ -36,7 +37,13 @@ div .hr-navbar {
 	margin-top: 1.5vw;
 	margin-left: 1.5vw;
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+}
+
+@media (max-width: 576px) {
+	div .hr-navbar {
+		flex-wrap: wrap;
+	}
 }
 
 div .hr-navbar-buttonbox {
