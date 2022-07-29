@@ -17,10 +17,13 @@ div .menu-item {
 	padding-left: 0.5vw;
 	padding-right: 0.5vw;
 	flex-grow: 1;
+	background-color: #cccccc;
+	margin: 1px;
 }
 
 div .menu-item:hover{
-   background-color: #cccccc;
+   background-color: #999999;
+   
 }
 
 div #menu-main-navigation {
@@ -47,11 +50,4 @@ div .hr-navbar-buttonbox {
 div .hr-titlebox {
 	flex-grow: 1;
 	flex-basis: 500px;
-}
-
-@media (max-width: 64em) {
-	div .menu-item{
-	background-color: #cccccc;
-	margin: 1px;
-	}
 }
