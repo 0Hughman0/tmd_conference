@@ -15,8 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 title: 2D Transition Metal Dichalcogenides & Related Materials 2023
 description: 2D Transition Metal Dichalcogenides & Related Materials 2023
-url: https://www.2dtmds2023.com/
-twitter_username: jekyllrb
+url: https://www.2dtmds2023.com
+baseurl: /dcuenvoieuriewud2dhfhf
+twitter_username: ChhowallaL
+email_address: 2dtmds2023@msm.cam.ac.uk
+
+
 
 # Build settings
 markdown: kramdown
