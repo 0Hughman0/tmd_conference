@@ -4,10 +4,10 @@ title: Accommodation
 permalink: /accommodation/
 ---
 
-Rooms will be available in Churchill College and participants of 2D TMD 2023 will get a discount. More information to follow.
+Discounted rate rooms in Churchill College will be made available to participants of 2D TMDS 2023. More information to follow. 
 <br>
 <br>
-Hotels and guest rooms are also available to be booked in city center and surroundings of Cambridge. Some additional accommodation options around Cambridge are: 
+Hotels and guest rooms can also be booked in Cambridge city center, located 20 - 30 minutes by walk or ~ 10 mins by bike. Some options around Cambridge are: 
 
  
 ## Hotels

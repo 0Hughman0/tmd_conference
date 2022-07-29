@@ -98,10 +98,10 @@ introduction: |
 
 ## Organizers
 <div class="entries-grid">
-{% for pair in site.data.plenaries %}
+{% for pair in site.data.organizers %}
 
 	<article class="entry">
-		<img src="/assets/Plenary Speakers/{{ pair["Name"] }}.jpg" height="200" width="200" style="border-radius:50%">
+		<img src="/assets/organizers/{{ pair["Name"] }}.jpg" height="200" width="200" style="border-radius:50%">
         <em>{{ pair["Name"] }}</em>
         <em>{{ pair["Institute"] }}</em>
 	</article>
@@ -111,7 +111,7 @@ introduction: |
 
 
 <style>
-    tab1 { padding-left: 4em; }
+    tab1 { padding-left: 4.1em; }
 </style>
 ## Contact us
 <div class="entries-grid">

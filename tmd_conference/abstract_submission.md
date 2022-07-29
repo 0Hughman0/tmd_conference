@@ -5,7 +5,8 @@ permalink: /abstract_submission/
 ---
 
 Abstract submissions to be opened in due course. 
-
+<br>
+<br>
 We strongly encourage participation and welcome abstract submissions from students and postdoctoral researchers for poster presentations.
 
 

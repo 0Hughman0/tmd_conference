@@ -4,7 +4,7 @@ title: Venue
 permalink: /venue/
 ---
 
-The conference will take place at Churchill College, University of Cambridge
+The conference will be held in <a href="https://conferences.chu.cam.ac.uk/">Churchill College, University of Cambridge</a>
 
 
 <div class="entries-grid">
