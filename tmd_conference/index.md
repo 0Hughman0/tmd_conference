@@ -70,13 +70,20 @@ introduction: |
 			Imaging and characterization
 
 		</h1>
+
+	</article>
+	<article class="entry">
+		<h1 class="entry-title">
+			Interesting properties of other 2D materials such as hBN, oxides, and carbides
+
+		</h1>
 		
 	</article>
 	
 </div>
 
 
-## Plenary Speakers
+## Confirmed Plenary Speakers
 <div class="entries-grid">
 {% for pair in site.data.plenaries %}
 
@@ -88,3 +95,52 @@ introduction: |
 {% endfor %}
 </div>
 
+
+## Organizers
+<div class="entries-grid">
+{% for pair in site.data.plenaries %}
+
+	<article class="entry">
+		<img src="/assets/Plenary Speakers/{{ pair["Name"] }}.jpg" height="200" width="200" style="border-radius:50%">
+        <em>{{ pair["Name"] }}</em>
+        <em>{{ pair["Institute"] }}</em>
+	</article>
+{% endfor %}
+</div>
+
+
+
+<style>
+    tab1 { padding-left: 4em; }
+</style>
+## Contact us
+<div class="entries-grid">
+	<article class="entry">
+		<p>
+			<a href="www.2dtmds2023.com">www.2dtmds2023.com</a>
+
+		</p>
+		
+		
+	</article>
+	<article class="entry">
+		<p>
+			Email: 2dtmds2023@msm.cam.ac.uk
+
+		</p>
+		
+	</article>
+	<article class="entry">
+		<p>
+			Address: Churchill College<br>
+			<tab1>University of Cambridge</tab1><br>
+			<tab1>Storey's Way</tab1><br>
+			<tab1>Cambridge</tab1><br>
+			<tab1>UK Postcode: CB3 0DS</tab1><br>
+
+		</p>
+		
+		
+	</article>
+	
+</div>

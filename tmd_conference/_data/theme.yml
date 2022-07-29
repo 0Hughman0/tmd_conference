@@ -53,6 +53,6 @@ navigation_pages:
   - program.md
   - venue.md
   - accommodation.md
-#  - abstract_submission.md  # not ready
+  - abstract_submission.md  # not ready
   - registration.md
  
