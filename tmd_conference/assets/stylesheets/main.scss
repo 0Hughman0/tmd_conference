@@ -46,6 +46,12 @@ div .hr-navbar {
 	}
 }
 
+@media screen and (min-width: 1280px) {
+	.intro-title {
+		font-size: 65px;
+	}
+}
+
 div .hr-navbar-buttonbox {
 	padding-right: 0.5vw;
 	display: flex;
