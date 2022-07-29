@@ -48,3 +48,10 @@ div .hr-titlebox {
 	flex-grow: 1;
 	flex-basis: 500px;
 }
+
+@media (max-width: 64em) {
+	div .menu-item{
+	background-color: #cccccc;
+	margin: 1px;
+	}
+}
