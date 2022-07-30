@@ -14,17 +14,17 @@ Hotels and guest rooms can also be booked in Cambridge city center, located 20 -
 <div class="entries-grid">
 
 <article class="entry">
-    <img src="/assets/hotels/hilton.jpg" height="400" width="400">
+    <img src="{{ '/assets/hotels/hilton.jpg' | relative_url  }}" height="400" width="400">
     <em><a href="https://www.hilton.com/en/hotels/stnhchi-hilton-cambridge-city-centre/?SEO_id=GMB-EMEA-HI-STNHCHI">Hilton Cambridge City Centre</a></em>
 </article>
 
 <article class="entry">
-    <img src="/assets/hotels/hyatt.jpg" height="400" width="400">
+    <img src="{{ '/assets/hotels/hyatt.jpg' | relative_url  }}" height="400" width="400">
     <em><a href="https://www.hyatt.com/en-US/hotel/england-united-kingdom/hyatt-centric-cambridge/stnct">Hyatt Centric Cambridge</a></em>
 </article>
 
 <article class="entry">
-    <img src="/assets/hotels/varsity.jpg" height="400" width="400">
+    <img src="{{ '/assets/hotels/varsity.jpg' | relative_url }}" height="400" width="400">
     <em><a href="https://www.thevarsityhotel.co.uk/">The Varsity Hotel & Spa</a></em>
 </article>
 
