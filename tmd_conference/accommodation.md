@@ -4,10 +4,12 @@ title: Accommodation
 permalink: /accommodation/
 ---
 
-Discounted rate rooms in Churchill College are available to participants of 2D TMDS 2023 through the following link - <a href="https://www.universityrooms.com/en-GB/city/cambridge/college/churchill">Churchill College Rooms</a>. Rooms available are as follows:
 
 ## Churchill Rooms
+Rooms within Churchill College are available to participants of 2D TMDS 2023 through the following link - <a href="https://www.universityrooms.com/en-GB/city/cambridge/college/churchill">Churchill College Rooms</a>. The room types available are:
+
 <div class="entries-grid">
+
 
 <article class="entry">
     <em>1. Single Standard (shared bathroom)</em>
@@ -57,10 +59,12 @@ Discounted rate rooms in Churchill College are available to participants of 2D T
 
 <br>
 <br>
-Hotels and guest rooms can also be booked in Cambridge city center, located 20 - 30 minutes by walk or ~ 10 mins by bike. Some options around Cambridge are: 
 
  
 ## Hotels
+Hotels and guest rooms can also be booked in Cambridge city center, located 20 - 30 minutes by walk or ~ 10 mins by bike. Some options around Cambridge are:
+
+
 <div class="entries-grid">
 
 <article class="entry">
