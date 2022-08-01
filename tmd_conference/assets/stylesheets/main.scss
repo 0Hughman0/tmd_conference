@@ -11,7 +11,13 @@
 
 /* general */
 
-div.inner {
+div .entry{
+	display: grid;
+	place-items: center;
+}
+
+
+div .inner {
 	max-width: inherit;
 }
 

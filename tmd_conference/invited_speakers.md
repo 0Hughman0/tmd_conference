@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Invited Speakers
+title: Confirmed Invited Speakers
 permalink: /speakers/
 ---
 
