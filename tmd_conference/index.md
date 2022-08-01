@@ -101,7 +101,7 @@ introduction: |
 {% for pair in site.data.organizers %}
 
 	<article class="entry">
-		<img src="/assets/organizers/{{ pair["Name"] }}.jpg" height="200" width="200" style="border-radius:50%">
+		<img src="{{ '/assets/organizers/' | relative_url }}{{ pair['Name'] }}.jpg" height="200" width="200" style="border-radius:50%">
         <em>{{ pair["Name"] }}</em>
         <em>{{ pair["Institute"] }}</em>
 	</article>
