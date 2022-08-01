@@ -4,15 +4,13 @@
 
 layout: home
 title: 2D Transition Metal Dichalcogenides & Related Materials
-sub_title: June 26 – 29, 2023 | Churchill College, Cambridge, UK
+sub_title: June 26 - 29, 2023 | Churchill College, Cambridge, UK
 image: /assets/top_banner.jpg
-
 introduction: |
     The conference will cover latest developments in synthesis of 2D TMDs and their 
     implementation in electronics, photonics, catalysis, as well as energy conversion 
-    and storage. Abstracts from students and postdoctoral researchers are very welcome.
+    and storage. <b>Abstracts from students and postdoctoral researchers are very welcome.</b>
 ---
-
 ## Topics
 
 <div class="entries-grid">
@@ -88,7 +86,7 @@ introduction: |
 {% for pair in site.data.plenaries %}
 
 	<article class="entry">
-		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" height="200" width="200" style="border-radius:50%">
+		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" height="200" width="200" style="border-radius: 50%">
         <em>{{ pair["Name"] }}</em>
         <em>{{ pair["Institute"] }}</em>
 	</article>
