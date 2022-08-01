@@ -57,10 +57,34 @@ div .hr-navbar-buttonbox {
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
-	align-self: flex-end;
+	align-self: center;
 }
 
 div .hr-titlebox {
 	flex-grow: 1;
 	flex-basis: 500px;
+}
+
+#footer {
+	background-color: #126370;
+	max-width: inherit;
+	color: white;
+}
+
+#contact-box {
+	display: flex;
+}
+
+h5 .contact-item-header {
+	display: inline;
+}
+
+
+div .digi-box{
+	align-self: flex-start;
+	flex-grow: 1;
+}
+
+div .address-box{
+	align-self: flex-end;
 }

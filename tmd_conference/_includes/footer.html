@@ -1,0 +1,37 @@
+<footer id="footer" class="site-footer">
+  <div class="inner">
+	<h1>Contact Us</h1>
+  <div id="contact-box">
+	
+	<div class="digi-box">	
+		<h5 class="contact-item-header">Web:</h5> 
+		<a href="http://www.2dtmds2023.com">
+		  <p>
+			http://www.2dtmds2023.com
+		  </p>
+		</a>
+		<p>
+			<h5 class="contact-item-header">Email:</h5> <a href="mailto://2dtmds2023@msm.cam.ac.uk">2dtmds2023@msm.cam.ac.uk</a>
+		</p>
+	</div>
+	<div class="address-box">
+		<h5 class="contact-item-header">Address:</h5>
+		<p>
+			Churchill College<br>
+			University of Cambridge<br>
+			Storey's Way<br>
+			Cambridge<br>
+			UK Postcode: CB3 0DS<br>
+		</p>
+	</div>
+  </div>
+      <div class="copyright">
+        {% if site.copyright %}
+          {{ site.copyright | markdownify }}
+        {% else %}
+          <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.</p>
+        {% endif %}
+      </div>
+  </div>
+  </div>
+</footer>

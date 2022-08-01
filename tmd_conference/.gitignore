@@ -4,3 +4,4 @@ _site
 .vendor
 .bin
 Gemfile.lock
+.bundle
