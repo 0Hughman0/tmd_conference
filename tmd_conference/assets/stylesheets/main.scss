@@ -27,16 +27,15 @@ div.topics-grid{
 /* top menu */
 
 div.menu-item {
-	padding: 1vw;
+	padding: 1px 10px 1px 10px;
 	flex-grow: 1;
-	background-color: #cccccc;
 	margin: 1px;
 	font-weight: bold;
+	border-radius: 2px;
 }
 
-div.menu-item:hover{
-   background-color: #999999;
-   
+div.menu-item:hover {
+	background-color: #cccccc;
 }
 
 #menu-main-navigation {
@@ -55,6 +54,10 @@ div.hr-navbar {
 @media (max-width: 576px) {
 	div .hr-navbar {
 		flex-wrap: wrap;
+	}
+	
+	div.menu-item{
+		background-color: #cccccc;
 	}
 }
 
