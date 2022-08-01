@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: 2D Transition Metal Dichalcogenides & Related Materials
+title: 2D Transition Metal Dichalcogenides 2023
 sub_title: June 26 - 29, 2023 | Churchill College, Cambridge, UK
 image: /assets/top_banner.jpg
 introduction: |
