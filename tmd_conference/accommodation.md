@@ -4,13 +4,67 @@ title: Accommodation
 permalink: /accommodation/
 ---
 
-Rooms will be available in Churchill College and participants of 2D TMD 2023 will get a discount. More information to follow.
+
+## Churchill Rooms
+Rooms within Churchill College are available to participants of 2D TMDS 2023 through the following link - <a href="https://www.universityrooms.com/en-GB/city/cambridge/college/churchill">Churchill College Rooms</a>. The room types available are:
+
+<div class="entries-grid">
+
+
+<article class="entry">
+    <em>1. Single Standard (shared bathroom)</em>
+    <img src="{{ '/assets/accommodation/single_standard.png' | relative_url  }}" height="400" width="400">
+    <em>Breakfast included <br>Shared bathroom<br> Internet Wi-Fi<br> Linen and towels provided <br>Tea and coffee making facilities <br>Washbasin in room <br>Sleeping 1 person
+</em>
+</article>
+
+<article class="entry">
+	<em>2. Single Ensuite</em>
+    <img src="{{ '/assets/accommodation/single_ensuite.png' | relative_url  }}" height="400" width="400">
+    <em>Breakfast included <br>Private bathroom<br> Internet Wi-Fi <br>Linen and towels provided<br> Tea and coffee making facilities<br> Sleeping 1 person
+</em>
+</article>
+
+<article class="entry">
+	<em>3. Twin Ensuite</em>
+    <img src="{{ '/assets/accommodation/twin_ensuite.png' | relative_url }}" height="400" width="400">
+    <em>Breakfast included <br>Private bathroom <br>Internet Wi-Fi <br>Linen and towels provided <br>Tea and coffee making facilities <br>Washbasin in room <br>Sleeping 2 person
+</em>
+</article>
+
+<article class="entry">
+    <em>4. Double Ensuite</em>
+    <img src="{{ '/assets/accommodation/double_ensuite.png' | relative_url }}" height="400" width="400">
+    <em>Breakfast included <br>Private bathroom <br>Internet Wi-Fi <br>Linen and towels provided<br> Tea and coffee making facilities<br>Sleeping 2 person
+</em>
+</article>
+
+<article class="entry">
+    <em>5. Cowan Court Double Ensuite (1 person)</em>
+    <img src="{{ '/assets/accommodation/cowan_court_1.png' | relative_url }}" height="400" width="400">
+    <em>Breakfast included<br>Private bathroom<br>Internet Wi-Fi<br>Linen and towels provided<br>Tea and coffee making facilities<br>Sleeping 1 person
+</em>
+</article>
+
+<article class="entry">
+    <em>6. Cowan Court Double Ensuite (2 person)</em>
+    <img src="{{ '/assets/accommodation/cowan_court_2.png' | relative_url }}" height="400" width="400">
+    <em>Breakfast included<br>Private bathroom<br>Internet Wi-Fi<br>Linen and towels provided<br>Tea and coffee making facilities<br>Sleeping 2 person
+</em>
+</article>
+
+
+</div>
+
+
 <br>
 <br>
-Hotels and guest rooms are also available to be booked in city center and surroundings of Cambridge. Some additional accommodation options around Cambridge are: 
 
  
 ## Hotels
+Hotels and guest rooms can also be booked in Cambridge city center, located 20 - 30 minutes by walk or ~ 10 mins by bike. Some options around Cambridge are:
+
+
 <div class="entries-grid">
 
 <article class="entry">

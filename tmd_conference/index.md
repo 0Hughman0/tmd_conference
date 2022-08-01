@@ -10,7 +10,7 @@ image: /assets/top_banner.jpg
 introduction: |
     The conference will cover latest developments in synthesis of 2D TMDs and their 
     implementation in electronics, photonics, catalysis, as well as energy conversion 
-    and storage. 
+    and storage. Abstracts from students and postdoctoral researchers are very welcome.
 ---
 
 ## Topics
@@ -98,10 +98,10 @@ introduction: |
 
 ## Organizers
 <div class="entries-grid">
-{% for pair in site.data.plenaries %}
+{% for pair in site.data.organizers %}
 
 	<article class="entry">
-		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair["Name"] }}.jpg" height="200" width="200" style="border-radius:50%">
+		<img src="/assets/organizers/{{ pair["Name"] }}.jpg" height="200" width="200" style="border-radius:50%">
         <em>{{ pair["Name"] }}</em>
         <em>{{ pair["Institute"] }}</em>
 	</article>
