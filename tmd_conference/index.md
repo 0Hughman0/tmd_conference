@@ -15,75 +15,30 @@ introduction: |
 
 ## Topics
 
-<div class="entries-grid">
-	<article class="entry">
-		<h1 class="entry-title">
-			Wafer scale synthesis of TMDs
-
-		</h1>
-		
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			2D TMDs for novel logic, memory and interconnects
-
-		</h1>
-		
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			2D TMDs for excitonic, plasmonic and other photonic devices
-
-		</h1>
-		
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Van der Waals heterostructures of TMDs
-
-		</h1>
-		
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Engineering quantum states in 2D TMDs and sensing with them
-
-		</h1>
-		
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			2D TMDs for energy conversion and storage 
-
-		</h1>
-		
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Defect engineering and catalysis with 2D TMDs
-
-		</h1>
-		
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Imaging and characterization
-
-		</h1>
-
-	</article>
-	<article class="entry">
-		<h1 class="entry-title">
-			Interesting properties of other 2D materials such as hBN, oxides, and carbides
-
-		</h1>
-		
-	</article>
-	
+<div class="topics-grid">
+	<div>
+	  <ul>
+		{% for topic in site.data.topics limit:5 %}
+		<li>
+			{{ topic['name'] }}
+		</li>
+		{% endfor %}
+  	  </ul>
+	</div>
+	<div>
+	<ul>
+		{% for topic in site.data.topics offset:5 %}
+		<li>
+			{{ topic['name'] }}
+		</li>
+		{% endfor %}
+	</ul>
+	</div>
 </div>
 
 
 ## Confirmed Plenary Speakers
+
 <div class="entries-grid">
 {% for pair in site.data.plenaries %}
 

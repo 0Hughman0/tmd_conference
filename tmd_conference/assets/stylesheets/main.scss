@@ -9,30 +9,42 @@
 
 @import "basically-basic";
 
+/* general */
 
-div .inner {
+div.inner {
 	max-width: inherit;
 }
 
-div .menu-item {
-	padding-left: 0.5vw;
-	padding-right: 0.5vw;
+div.topics-grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+	
+
+/* top menu */
+
+div.menu-item {
+	padding: 1vw;
 	flex-grow: 1;
 	background-color: #cccccc;
 	margin: 1px;
+	font-weight: bold;
 }
 
-div .menu-item:hover{
+div.menu-item:hover{
    background-color: #999999;
    
 }
 
-div #menu-main-navigation {
+#menu-main-navigation {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-div .hr-navbar {
+div.hr-navbar {
 	margin-bottom: 1.5vw;
 	margin-top: 1.5vw;
 	margin-left: 1.5vw;
@@ -47,7 +59,7 @@ div .hr-navbar {
 }
 
 @media screen and (min-width: 1280px) {
-	.intro-title {
+	h1.intro-title {
 		font-size: 65px;
 	}
 }
@@ -64,6 +76,8 @@ div .hr-titlebox {
 	flex-grow: 1;
 	flex-basis: 500px;
 }
+
+/* footer */
 
 #footer {
 	background-color: #126370;
@@ -82,18 +96,15 @@ div .hr-titlebox {
 
 #contact-box {
 	display: flex;
+	flex-wrap: wrap;
 }
 
-h5 .contact-item-header {
+h5.contact-item-header {
 	display: inline;
 }
 
 
-div .digi-box{
-	align-self: flex-start;
-	flex-grow: 1;
+#contact-box div{
+	padding-right: 2vw;
 }
 
-div .address-box{
-	align-self: flex-end;
-}
