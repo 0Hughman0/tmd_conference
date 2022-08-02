@@ -13,17 +13,17 @@ Conference Fees
 ### Early Bird Registration (Before March 1, 2023)
 
 
-| Position    |        Fee                          |   
-|------------------- |---------------------------------|
-| Academics & PDRAs |  £450 |
-| Students         |   £300 |
+| Position            | Fee                             |
+|---------------------|---------------------------------|
+| Academics & PDRAs   | £450 |
+| Students            | £250 |
 
 ### Late Registration (After March 1, 2023)
 
   |Position           | Fee                             |
-  |-------------------| ---------------------------------|
+  |-------------------| --------------------------------|
   |Academics & PDRAs  | £500 |
-  |Students           | £350 |
+  |Students           | £300 |
 
 ### Registration will cover:
 
