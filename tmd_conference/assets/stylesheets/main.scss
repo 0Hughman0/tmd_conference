@@ -11,14 +11,9 @@
 
 /* general */
 
-#title-link {
-	text-decoration: none;
-}
-
 div .entry{
 	display: grid;
 	place-items: center;
-
 }
 
 
@@ -35,8 +30,12 @@ div.topics-grid{
 /* top menu */
 
 div.site-title{
-	padding: 0;
+	padding: 2px;
 	color: black;
+}
+
+#title-link {
+	text-decoration: none;
 }
 
 div.menu-item {
@@ -71,6 +70,7 @@ div.hr-navbar {
 	
 	div.menu-item{
 		background-color: #cccccc;
+		padding: 10px 10px 10px 10px;
 	}
 }
 
