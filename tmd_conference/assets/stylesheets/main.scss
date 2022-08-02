@@ -11,9 +11,14 @@
 
 /* general */
 
+#title-link {
+	text-decoration: none;
+}
+
 div .entry{
 	display: grid;
 	place-items: center;
+
 }
 
 
@@ -25,12 +30,14 @@ div.topics-grid{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	
 }
 
-	
-
 /* top menu */
+
+div.site-title{
+	padding: 0;
+	color: black;
+}
 
 div.menu-item {
 	padding: 1px 10px 1px 10px;
