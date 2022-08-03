@@ -3,6 +3,6 @@ _site
 .jekyll-metadata
 .vendor
 .bin
-Gemfile.lock
+tmd_conference/Gemfile.lock
 .bundle
 tmd_conference/_site
