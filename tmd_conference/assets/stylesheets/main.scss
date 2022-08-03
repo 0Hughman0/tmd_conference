@@ -14,6 +14,8 @@
 div .entry{
 	display: grid;
 	place-items: center;
+	margin: 0vw 2.5vw 0vw 2.5vw;
+	border-bottom: none;
 }
 
 
@@ -95,6 +97,29 @@ div.hr-titlebox {
 
 header.intro {
 	padding-bottom: 0px;
+}
+
+/* portraits */
+
+div.speaker-box{
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	text-align: center;
+}
+
+@media (max-width: 576px) {
+	div.speaker-box{
+	flex-wrap: wrap;
+	}	
+}
+
+article.portrait{
+	display: grid;
+	place-items: center;
+	margin: 0vw 2.5vw 0vw 2.5vw;
+	border-bottom: none;
+	text-align: center;
 }
 
 /* footer */
