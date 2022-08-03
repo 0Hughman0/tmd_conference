@@ -39,6 +39,9 @@ jobs:
             
       - name: check for errors!
         run: git status -uno --porcelain
+        
+      - name: cleanup lockfile
+        run: git reset tmd_conference/Gemfile.lock
       
       - name: FTP Deploy to WP Engine (Staging)
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
