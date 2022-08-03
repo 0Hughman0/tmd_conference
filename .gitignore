@@ -5,3 +5,4 @@ _site
 .bin
 Gemfile.lock
 .bundle
+tmd_conference/_site
