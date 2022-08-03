@@ -35,21 +35,22 @@ The conference will be held in <a href="https://conferences.chu.cam.ac.uk/">Chur
 
 
 ## Travelling by Public Transport
-Train<br>
+
+### Train
 Cambridge railway station has a frequent service from London King’s Cross, the Midlands and the North and a direct link from Stansted airport. From Heathrow airport there is a frequent train service to Kings Cross station. Cambridge is a 50-minute journey from London King’ Cross and Liverpool Street stations. Cambridge railway station is situated 2 miles from Churchill College.
 
 
 
-Bus<br>
+### Bus
 The U bus travels directly from the station to Maddingly Road, near the College. Information on bus services in Cambridge can be found on following link:
 <a href="https://bustimes.org/services/u-madingley-road-p-r-addenbrookes-hospital">https://bustimes.org/services/u-madingley-road-p-r-addenbrookes-hospital</a>
 
 
-Taxi <br>
+### Taxi
 Taxis are available at the entrance of Cambridge railway station.
 Other Taxi service providers: 
-- Smart Drivers(www.smart-drivers.com. Tel: 01223 901205. Email: info@smart-drivers.com) 
-- Panther(Tel: 01223 715715)
+- Smart Drivers ([http://www.smart-drivers.com](www.smart-drivers.com). Tel: 01223 901205. Email: info@smart-drivers.com) 
+- Panther (Tel: 01223 715715)
 - Uber
 - Bolt
 

@@ -42,7 +42,7 @@ introduction: |
 
 	<article class="entry">
 		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" height="200" width="200" style="border-radius: 50%">
-        <em>{{ pair["Name"] }}</em>
+        <b>{{ pair["Name"] }}</b>
         <em>{{ pair["Institute"] }}</em>
 	</article>
 {% endfor %}
@@ -55,7 +55,7 @@ introduction: |
 
 	<article class="entry">
 		<img src="{{ '/assets/organizers/' | relative_url }}{{ pair['Name'] }}.jpg" height="200" width="200" style="border-radius:50%">
-        <em>{{ pair["Name"] }}</em>
+        <b>{{ pair["Name"] }}</b>
         <em>{{ pair["Institute"] }}</em>
 	</article>
 {% endfor %}
