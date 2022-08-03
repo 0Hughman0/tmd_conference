@@ -23,7 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - uses helaili/jekyll-action@v2
+      - uses: helaili/jekyll-action@v2
         with:
             build_only: true
             jekyll_src: tmd_conference
