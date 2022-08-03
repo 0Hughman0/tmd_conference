@@ -61,7 +61,7 @@ jobs:
           ftp-server: ${{ secrets.SFTP_ADDRESS }}/home/msm2dm/www/www.2dtmds2023.com/dcuenvoieuriewud2dhfhf/
           ftp-username: ${{ secrets.SFTP_USERNAME }}
           ftp-password: ${{ secrets.PASSWORD }}
-          local-dir: ./_site/
+          local-dir: _site/
           # known-hosts: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNsjgg+Fx9CWHaPRsOw+0TDa/tn7aM7rwRwE933T5f8v0VsjavMl33zEd+AeI/Du2bA7BV6S9DnOMpQQHM5l8QNNTaTvoNyg8qsjp0om63LYfQ5bS7quKxwys0naksYGEx7/JKvN27sG7aLxoKEavKu39SBUMdK5gwC5NzlGg6T+F19qh2kqeBMIVwV9EkZP26ZgHbqiyzSkxnLT0yosn/jgJjlAc+QeIg3eG1FxtuhsDDCpkIWhbTlYlhsmFjRHKnGoc4WqGMrfcrcFJ96p7J5qD+1zKfJ7pNStDMRcjXRBGnSI0Y0whS19rIZdPb2U2xJJ4jvKjFbHUqrzI3zh9/
           git-ftp-args: --insecure
           
