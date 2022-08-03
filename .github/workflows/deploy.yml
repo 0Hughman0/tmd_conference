@@ -43,22 +43,17 @@ jobs:
             name: production-files
             path: ./_site
 
-
-  deploy:
-    steps:
-      - name: Retrieve site
-        uses: actions/upload-artifact@v2
-        with: 
-            name: production-files
-            path: ./build
+      #- name: Retrieve site
+      #  uses: actions/upload-artifact@v2
+      #  with: 
+      #      name: production-files
+      #      path: ./build
 
       - name: check for errors!
         run: git status -uno --porcelain
         
       - name: check it's there
-        run: |
-            cd ./_site
-            ls 
+        run: ls -R
         
       - name: FTP Deploy to WP Engine (Staging)
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
