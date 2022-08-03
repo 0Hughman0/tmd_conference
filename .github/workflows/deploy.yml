@@ -39,11 +39,11 @@ jobs:
             gem_src: tmd_conference
             build_dir: ../dcuenvoieuriewud2dhfhf
 
-      - name: Store built website
-        uses: actions/upload-artifact@v2
-        with: 
-            name: production-files
-            path: ./dcuenvoieuriewud2dhfhf
+      # - name: Store built website
+      #   uses: actions/upload-artifact@v2
+      #   with: 
+      #       name: production-files
+      #       path: ./dcuenvoieuriewud2dhfhf
 
       #- name: Retrieve site
       #  uses: actions/upload-artifact@v2
