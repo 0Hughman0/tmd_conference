@@ -40,10 +40,14 @@ jobs:
       - name: FTP Deploy to WP Engine (Staging)
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: sftp://${{ secrets.SFTP_ADDRESS }}
+          protocol: ftps
+          ftp-server: ${{ secrets.SFTP_ADDRESS }}
           ftp-username: ${{ secrets.SFTP_USERNAME }}
           ftp-password: ${{ secrets.PASSWORD }}
-          local-dir: ._site/
+          local-dir: ./_site/
+          server-dir: /home/msm2dm/www/www.2dtmds2023.com/dcuenvoieuriewud2dhfhf/
+        
+          
 
             
             
