@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Deploy Website
 
 # Controls when the workflow will run
 on:
@@ -37,6 +37,13 @@ jobs:
             gem_src: tmd_conference
             build_dir: _site
       
-            
+      - name: FTP Deploy to WP Engine (Staging)
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: sftp://${{ secrets.SFTP_ADDRESS }}
+          ftp-username: ${{ secrets.SFTP_USERNAME }}
+          ftp-password: ${{ secrets.PASSWORD }}
+          local-dir: ._site/
+
             
             
