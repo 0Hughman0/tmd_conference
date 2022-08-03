@@ -45,6 +45,7 @@ jobs:
 
 
   deploy:
+    steps:
       - name: Retrieve site
         uses: actions/upload-artifact@v2
         with: 
