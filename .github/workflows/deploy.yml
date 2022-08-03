@@ -35,7 +35,7 @@ jobs:
             build_only: true
             jekyll_src: tmd_conference
             gem_src: tmd_conference
-            build_dir: ./_site
+            build_dir: ../_site
 
       - name: Store built website
         uses: actions/upload-artifact@v2
