@@ -37,12 +37,12 @@ introduction: |
 
 ## Confirmed Plenary Speakers
 
-<div class="entries-grid">
+<div class="speaker-box">
 {% for pair in site.data.plenaries %}
 
-	<article class="entry">
+	<article class="portrait">
 		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" height="200" width="200" style="border-radius: 50%">
-        <em>{{ pair["Name"] }}</em>
+        <b>{{ pair["Name"] }}</b>
         <em>{{ pair["Institute"] }}</em>
 	</article>
 {% endfor %}
@@ -50,12 +50,12 @@ introduction: |
 
 
 ## Organizers
-<div class="entries-grid">
+<div class="speaker-box">
 {% for pair in site.data.organizers %}
 
-	<article class="entry">
+	<article class="portrait">
 		<img src="{{ '/assets/organizers/' | relative_url }}{{ pair['Name'] }}.jpg" height="200" width="200" style="border-radius:50%">
-        <em>{{ pair["Name"] }}</em>
+        <b>{{ pair["Name"] }}</b>
         <em>{{ pair["Institute"] }}</em>
 	</article>
 {% endfor %}
