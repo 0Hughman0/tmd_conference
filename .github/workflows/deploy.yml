@@ -27,7 +27,7 @@ jobs:
         with:
             build_only: true
             jekyll_src: tmd_conference
-            gem_src: tmd_conference/Gemfile
+            gem_src: tmd_conference
             build_dir: _site
       
             
