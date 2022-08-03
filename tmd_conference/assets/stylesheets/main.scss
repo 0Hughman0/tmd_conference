@@ -80,7 +80,7 @@ div.hr-navbar {
 	}
 }
 
-div .hr-navbar-buttonbox {
+div.hr-navbar-buttonbox {
 	padding-right: 0.5vw;
 	display: flex;
 	justify-content: flex-end;
@@ -88,9 +88,13 @@ div .hr-navbar-buttonbox {
 	align-self: center;
 }
 
-div .hr-titlebox {
+div.hr-titlebox {
 	flex-grow: 1;
 	flex-basis: 500px;
+}
+
+header.intro {
+	padding-bottom: 0px;
 }
 
 /* footer */
