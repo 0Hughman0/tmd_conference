@@ -36,6 +36,9 @@ jobs:
             jekyll_src: tmd_conference
             gem_src: tmd_conference
             build_dir: _site
+            
+      - name: check for errors!
+        run: git status -uno --porcelain
       
       - name: FTP Deploy to WP Engine (Staging)
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
