@@ -40,6 +40,11 @@ jobs:
       - name: check for errors!
         run: git status -uno --porcelain
         
+      - name: check it's there
+        run: |
+            cd _site
+            ls 
+        
       - name: FTP Deploy to WP Engine (Staging)
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
