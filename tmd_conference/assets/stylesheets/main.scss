@@ -19,6 +19,12 @@ div .entry{
 }
 
 
+div .entry1{
+	display: grid;
+	place-items: left;
+	border-bottom: none;
+}
+
 div .inner {
 	max-width: inherit;
 }
