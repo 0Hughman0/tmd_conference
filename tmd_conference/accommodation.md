@@ -11,45 +11,44 @@ Rooms within Churchill College are available to participants of 2D TMDS 2023 thr
 <div class="entries-grid">
 
 
-<article class="entry">
+<article class="entry1">
     <em>1. Single Standard (shared bathroom)</em>
     <img src="{{ '/assets/accommodation/single_standard.png' | relative_url  }}" height="400" width="400">
-    <em>Breakfast included <br>Shared bathroom<br> Internet Wi-Fi<br> Linen and towels provided <br>Tea and coffee making facilities <br>Washbasin in room <br>Sleeping 1 person
+    <em><li>Breakfast included</li> <li>Shared bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Washbasin in room</li> <li>Sleeping 1 person</li>
 </em>
 </article>
-
-<article class="entry">
+<article class="entry1">
 	<em>2. Single Ensuite</em>
     <img src="{{ '/assets/accommodation/single_ensuite.png' | relative_url  }}" height="400" width="400">
-    <em>Breakfast included <br>Private bathroom<br> Internet Wi-Fi <br>Linen and towels provided<br> Tea and coffee making facilities<br> Sleeping 1 person
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeping 1 person</li>
 </em>
 </article>
 
-<article class="entry">
+<article class="entry1">
 	<em>3. Twin Ensuite</em>
     <img src="{{ '/assets/accommodation/twin_ensuite.png' | relative_url }}" height="400" width="400">
-    <em>Breakfast included <br>Private bathroom <br>Internet Wi-Fi <br>Linen and towels provided <br>Tea and coffee making facilities <br>Washbasin in room <br>Sleeping 2 person
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Washbasin in room</li> <li>Sleeping 2 person</li>
 </em>
 </article>
 
-<article class="entry">
+<article class="entry1">
     <em>4. Double Ensuite</em>
     <img src="{{ '/assets/accommodation/double_ensuite.png' | relative_url }}" height="400" width="400">
-    <em>Breakfast included <br>Private bathroom <br>Internet Wi-Fi <br>Linen and towels provided<br> Tea and coffee making facilities<br>Sleeping 2 person
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeping 2 person</li>
 </em>
 </article>
 
-<article class="entry">
+<article class="entry1">
     <em>5. Cowan Court Double Ensuite (1 person)</em>
     <img src="{{ '/assets/accommodation/cowan_court_1.png' | relative_url }}" height="400" width="400">
-    <em>Breakfast included<br>Private bathroom<br>Internet Wi-Fi<br>Linen and towels provided<br>Tea and coffee making facilities<br>Sleeping 1 person
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeping 1 person</li>
 </em>
 </article>
 
-<article class="entry">
+<article class="entry1">
     <em>6. Cowan Court Double Ensuite (2 person)</em>
     <img src="{{ '/assets/accommodation/cowan_court_2.png' | relative_url }}" height="400" width="400">
-    <em>Breakfast included<br>Private bathroom<br>Internet Wi-Fi<br>Linen and towels provided<br>Tea and coffee making facilities<br>Sleeping 2 person
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeping 2 person</li>
 </em>
 </article>
 
