@@ -6,7 +6,7 @@ permalink: /accommodation/
 
 
 ## Churchill Rooms
-Rooms within Churchill College are available to participants of 2D TMDS 2023 through the following link - <a href="https://www.universityrooms.com/en-GB/city/cambridge/college/churchill">Churchill College Rooms</a>. The room types available are:
+Rooms within Churchill College are available to participants of 2D TMDS 2023. A promotional code for discount will be made <b>available in early september</b> which participants can use to book through the following link - <a href="https://www.universityrooms.com/en-GB/city/cambridge/college/churchill">University Rooms</a>. The room types available are:
 
 <div class="entries-grid">
 
