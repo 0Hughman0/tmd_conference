@@ -11,21 +11,31 @@
 
 /* general */
 
-div .entry{
+img.site-logo{
+	border-radius: 0px;
+	width: inherit;
+}
+
+div.entry{
 	display: grid;
 	place-items: center;
 	margin: 0vw 2.5vw 0vw 2.5vw;
 	border-bottom: none;
 }
 
+div.entry-content{
+	place-items: center;
+	width: 100% !important;
+}
 
-div .entry1{
+
+div.entry1{
 	display: grid;
 	place-items: left;
 	border-bottom: none;
 }
 
-div .inner {
+div.inner {
 	max-width: inherit;
 }
 
@@ -34,6 +44,14 @@ div.topics-grid{
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+@media (max-width: 576px) {
+	div.topics-grid{
+		justify-content: flex-start;
+		padding-top: 0px;
+	}
+}
+
 
 /* top menu */
 
@@ -126,6 +144,15 @@ article.portrait{
 	margin: 0vw 2.5vw 0vw 2.5vw;
 	border-bottom: none;
 	text-align: center;
+	max-width: inherit;
+	flex-basis: 200px;
+}
+
+img.portrait{
+	width: 100%;
+	height: auto;
+	max-width: 60vw;
+	border-radius: 50%;
 }
 
 /* footer */

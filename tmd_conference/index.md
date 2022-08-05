@@ -41,7 +41,7 @@ introduction: |
 {% for pair in site.data.plenaries %}
 
 	<article class="portrait">
-		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" height="200" width="200" style="border-radius: 50%">
+		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
         <b>{{ pair["Name"] }}</b>
         <em>{{ pair["Institute"] }}</em>
 	</article>
@@ -54,7 +54,7 @@ introduction: |
 {% for pair in site.data.organizers %}
 
 	<article class="portrait">
-		<img src="{{ '/assets/organizers/' | relative_url }}{{ pair['Name'] }}.jpg" height="200" width="200" style="border-radius:50%">
+		<img src="{{ '/assets/organizers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
         <b>{{ pair["Name"] }}</b>
         <em>{{ pair["Institute"] }}</em>
 	</article>
