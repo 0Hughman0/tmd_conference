@@ -43,10 +43,6 @@ Making changes and syncing them
 
 navigate to the folder called tmd_conference
 
-run
-
-git checkout -b ismail-desription-of-what-your-doing
-
 make your changes
 
 once you are done, run
@@ -59,8 +55,9 @@ git commit -m "and add a nice message here as to what you did"
 
 To sync your changes, run 
 
-git push origin ismail-desription-of-what-your-doing
+git push origin main
 
+This will push your changes to your fork of the website. i.e. the one found at https://github.com/jeffreyyang415/tmd_conference (for Jeffery!)
 
 
 
