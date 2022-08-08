@@ -27,6 +27,8 @@ bundle install
 
 and then
 
+Git pull Hugh main - to sync with Hugh 
+
 bundle exec jekyll serve
 
 and then head to
@@ -43,10 +45,6 @@ Making changes and syncing them
 
 navigate to the folder called tmd_conference
 
-run
-
-git checkout -b ismail-desription-of-what-your-doing
-
 make your changes
 
 once you are done, run
@@ -59,8 +57,25 @@ git commit -m "and add a nice message here as to what you did"
 
 To sync your changes, run 
 
-git push origin ismail-desription-of-what-your-doing
+git push origin main
 
+To upload to main website:
+
+https://github.com/0Hughman0/tmd_conference/pulls
+click new pull request
+
+on the left dropdown select 'demo', on the right, select ismail 'main'
+
+Check that your changes are sane
+
+click create pull request.
+
+Then I think because you are a collaborator on the project, you can also accept your own pull 
+request.
+
+This should incorporate your changes and automatically update the website.
+
+This will push your changes to your fork of the website. i.e. the one found at https://github.com/jeffreyyang415/tmd_conference (for Jeffery!)
 
 
 

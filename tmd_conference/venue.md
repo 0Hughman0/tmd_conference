@@ -42,7 +42,7 @@ Cambridge railway station has a frequent service from London King’s Cross, the
 
 
 ### Bus
-The U bus travels directly from the station to Maddingly Road, near the College. Information on bus services in Cambridge can be found on following link:
+The U bus travels directly from the station to Madingley Road, near the College. Information on bus services in Cambridge can be found on following link:
 <a href="https://bustimes.org/services/u-madingley-road-p-r-addenbrookes-hospital">https://bustimes.org/services/u-madingley-road-p-r-addenbrookes-hospital</a>
 
 
