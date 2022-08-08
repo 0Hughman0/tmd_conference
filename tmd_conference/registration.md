@@ -27,15 +27,15 @@ Conference Fees
 
 ### Registration will cover:
 
--   Sunday, June 25: Welcome reception in Churchill College with food
+-   Sunday, June 25th: Welcome reception in Churchill College with food
     and drinks
 
--   Monday, June 26 -- Thursday, June 29th: Coffee/tea with pastries in the mornings and afternoons
+-   Monday, June 26th -- Thursday, June 29th: Coffee/tea with pastries in the mornings and afternoons
 
--   Monday, June 26 -- Thursday, June 29th: Sit down lunch in Churchill
+-   Monday, June 26th -- Thursday, June 29th: Sit down lunch in Churchill
     College Dining Hall
 
--   Monday, June 26 -- Tuesday, June 27th: Sit down dinner in Churchill
+-   Monday, June 26th -- Tuesday, June 27th: Sit down dinner in Churchill
     College Dining Hall
 
 -   Wednesday, June 28th: Gala dinner for all attendees
