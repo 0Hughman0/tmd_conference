@@ -195,9 +195,11 @@ A draft program is given below for your guidance. This may be subject to change.
     <td>13:30 - 15:00</td>
     <td class="centred">Invited talks</td>
   </tr>
-  <tr>
+
+ <tr>
     <td>15:00 - 17:00</td>
-    <td class="centred">Lab tours, punting and other social activities for those interested</td>
+    <td class="centred">Lab tours, punting <br>and other social activities<br> for those interested</td>
   </tr>
+  
 </tbody>
 </table>
