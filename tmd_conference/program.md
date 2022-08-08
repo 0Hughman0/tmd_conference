@@ -12,7 +12,7 @@ A draft program is given below for your guidance. This may be subject to change.
 <thead>
   <tr>
     <td>7:30 - 8:15</td>
-    <td class="centred">Coffee/tea with Pastries</td>
+    <td class="centred">Coffee/tea with pastries</td>
   </tr>
 </thead>
 <tbody>
@@ -54,7 +54,7 @@ A draft program is given below for your guidance. This may be subject to change.
   </tr>
   <tr>
     <td>19:00 - 20:30</td>
-    <td class="centred">Poster Session</td>
+    <td class="centred">Poster session</td>
   </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ A draft program is given below for your guidance. This may be subject to change.
 <thead>
   <tr>
     <td>7:30 - 8:15</td>
-    <td class="centred">Coffee/tea with Pastries</td>
+    <td class="centred">Coffee/tea with pastries</td>
   </tr>
 </thead>
 <tbody>
@@ -107,7 +107,7 @@ A draft program is given below for your guidance. This may be subject to change.
   </tr>
   <tr>
     <td>19:00 - 20:30</td>
-    <td class="centred">Poster Session</td>
+    <td class="centred">Poster session</td>
   </tr>
 </tbody>
 </table>
@@ -118,7 +118,7 @@ A draft program is given below for your guidance. This may be subject to change.
 <thead>
   <tr>
     <td>7:30 - 8:15</td>
-    <td class="centred">Coffee/tea with Pastries</td>
+    <td class="centred">Coffee/tea with pastries</td>
   </tr>
 </thead>
 <tbody>
@@ -156,7 +156,7 @@ A draft program is given below for your guidance. This may be subject to change.
   </tr>
   <tr>
     <td>19:00 - 20:30</td>
-    <td class="centred">Gala Dinner</td>
+    <td class="centred">Gala dinner</td>
   </tr>
 </tbody>
 </table>
@@ -167,7 +167,7 @@ A draft program is given below for your guidance. This may be subject to change.
 <thead>
   <tr>
     <td>7:30 - 8:15</td>
-    <td class="centred">Coffee/tea with Pastries</td>
+    <td class="centred">Coffee/tea with pastries</td>
   </tr>
 </thead>
 <tbody>
