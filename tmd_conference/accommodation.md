@@ -6,7 +6,7 @@ permalink: /accommodation/
 
 
 ## Churchill Rooms
-Rooms within Churchill College are available to participants of 2D TMDs 2023. A promotional code for discount will be made <b>available in early september</b> which participants can use to book through the following link - <a href="https://www.universityrooms.com/en-GB/city/cambridge/college/churchill">University Rooms</a>. The room types available are:
+Rooms within Churchill College are available to participants of 2D TMDs 2023. A promotional code for a discount will be made <b>available in early september</b> which participants can use to book through the following link - <a href="https://www.universityrooms.com/en-GB/city/cambridge/college/churchill">University Rooms</a>. The room types available are:
 
 <div class="entries-grid">
 
@@ -14,41 +14,41 @@ Rooms within Churchill College are available to participants of 2D TMDs 2023. A 
 <article class="entry1">
     <em>1. Single Standard (shared bathroom)</em>
     <img src="{{ '/assets/accommodation/single_standard.png' | relative_url  }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Shared bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Washbasin in room</li> <li>Sleeps 1 person</li>
+    <em><li>Breakfast included</li> <li>Shared bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Washbasin in room</li> <li>Sleeps 1 person</li>
 </em>
 </article>
 <article class="entry1">
 	<em>2. Single Ensuite</em>
     <img src="{{ '/assets/accommodation/single_ensuite.png' | relative_url  }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeps 1 person</li>
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Sleeps 1 person</li>
 </em>
 </article>
 
 <article class="entry1">
 	<em>3. Twin Ensuite</em>
     <img src="{{ '/assets/accommodation/twin_ensuite.png' | relative_url }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Washbasin in room</li> <li>Sleeps 2 people</li>
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Washbasin in room</li> <li>Sleeps 2 people</li>
 </em>
 </article>
 
 <article class="entry1">
     <em>4. Double Ensuite</em>
     <img src="{{ '/assets/accommodation/double_ensuite.png' | relative_url }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeps 2 people</li>
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Sleeps 2 people</li>
 </em>
 </article>
 
 <article class="entry1">
     <em>5. Cowan Court Double Ensuite (1 person)</em>
     <img src="{{ '/assets/accommodation/cowan_court_1.png' | relative_url }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeps 1 person</li>
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Sleeps 1 person</li>
 </em>
 </article>
 
 <article class="entry1">
     <em>6. Cowan Court Double Ensuite (2 person)</em>
     <img src="{{ '/assets/accommodation/cowan_court_2.png' | relative_url }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeps 2 people</li>
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Sleeps 2 people</li>
 </em>
 </article>
 

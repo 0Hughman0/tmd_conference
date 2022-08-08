@@ -34,7 +34,7 @@ A draft program is given below for your guidance. This may be subject to change.
   </tr>
   <tr>
     <td>12:00 - 13:30</td>
-    <td class="centred">Lunch (Churchill Dining Hall)</td>
+    <td class="centred">Lunch (Churchill College Dining Hall)</td>
   </tr>
   <tr>
     <td>13:30 - 15:30</td>
@@ -50,7 +50,7 @@ A draft program is given below for your guidance. This may be subject to change.
   </tr>
   <tr>
     <td>17:30 - 19:00</td>
-    <td class="centred">Dinner (Churchill Dining Hall)</td>
+    <td class="centred">Dinner (Churchill College Dining Hall)</td>
   </tr>
   <tr>
     <td>19:00 - 20:30</td>
@@ -87,7 +87,7 @@ A draft program is given below for your guidance. This may be subject to change.
   </tr>
   <tr>
     <td>12:00 - 13:30</td>
-    <td class="centred">Lunch (Churchill Dining Hall)</td>
+    <td class="centred">Lunch (Churchill College Dining Hall)</td>
   </tr>
   <tr>
     <td>13:30 - 15:30</td>
@@ -103,7 +103,7 @@ A draft program is given below for your guidance. This may be subject to change.
   </tr>
   <tr>
     <td>17:30 - 19:00</td>
-    <td class="centred">Dinner (Churchill Dining Hall)</td>
+    <td class="centred">Dinner (Churchill College Dining Hall)</td>
   </tr>
   <tr>
     <td>19:00 - 20:30</td>
@@ -140,7 +140,7 @@ A draft program is given below for your guidance. This may be subject to change.
   </tr>
   <tr>
     <td>12:00 - 13:30</td>
-    <td class="centred">Lunch (Churchill Dining Hall)</td>
+    <td class="centred">Lunch (Churchill College Dining Hall)</td>
   </tr>
   <tr>
     <td>13:30 - 15:30</td>
@@ -189,7 +189,7 @@ A draft program is given below for your guidance. This may be subject to change.
   </tr>
   <tr>
     <td>12:00 - 13:30</td>
-    <td class="centred">Lunch (Churchill Dining Hall)</td>
+    <td class="centred">Lunch (Churchill College Dining Hall)</td>
   </tr>
   <tr>
     <td>13:30 - 15:00</td>
@@ -198,7 +198,7 @@ A draft program is given below for your guidance. This may be subject to change.
 
  <tr>
     <td>15:00 - 17:00</td>
-    <td class="centred">Lab tours, punting <br>and other social activities<br> for those interested</td>
+    <td class="centred">Lab tours, punting, <br>and other social activities<br> for those interested</td>
   </tr>
   
 </tbody>
