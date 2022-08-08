@@ -37,12 +37,10 @@ The conference will be held in <a href="https://conferences.chu.cam.ac.uk/">Chur
 ## Travelling by Public Transport
 
 ### Train
-Cambridge railway station has a frequent service from London King’s Cross, the Midlands and the North and a direct link from Stansted airport. From Heathrow airport there is a frequent train service to Kings Cross station. Cambridge is a 50-minute journey from London King’ Cross and Liverpool Street stations. Cambridge railway station is situated 2 miles from Churchill College.
-
-
+Cambridge railway station has frequent services from London Stansted Airport (30 minutes), London King's Cross (50 minutes), London Liverpool Street (60 minutes), the Midlands, and the North. From London Heathrow Airport you can reach London King's Cross station by the London Underground Tube (60 minutes). Cambridge railway station is situated 2 miles from Churchill College.
 
 ### Bus
-The U bus travels directly from the station to Madingley Road, near the College. Information on bus services in Cambridge can be found on following link:
+The Universal U bus travels directly from the station to Madingley Road, near the College. Information on bus services in Cambridge can be found on following link:
 <a href="https://bustimes.org/services/u-madingley-road-p-r-addenbrookes-hospital">https://bustimes.org/services/u-madingley-road-p-r-addenbrookes-hospital</a>
 
 

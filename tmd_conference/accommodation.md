@@ -6,7 +6,7 @@ permalink: /accommodation/
 
 
 ## Churchill Rooms
-Rooms within Churchill College are available to participants of 2D TMDs 2023. A promotional code for discount will be made <b>available in early september</b> which participants can use to book through the following link - <a href="https://www.universityrooms.com/en-GB/city/cambridge/college/churchill">University Rooms</a>. The room types available are:
+Rooms within Churchill College are available to participants of 2D TMDs 2023. A promotional code for a discount will be made <b>available in early september</b> which participants can use to book through the following link - <a href="https://www.universityrooms.com/en-GB/city/cambridge/college/churchill">University Rooms</a>. The room types available are:
 
 <div class="entries-grid">
 
@@ -14,41 +14,41 @@ Rooms within Churchill College are available to participants of 2D TMDs 2023. A 
 <article class="entry1">
     <em>1. Single Standard (shared bathroom)</em>
     <img src="{{ '/assets/accommodation/single_standard.png' | relative_url  }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Shared bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Washbasin in room</li> <li>Sleeping 1 person</li>
+    <em><li>Breakfast included</li> <li>Shared bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Washbasin in room</li> <li>Sleeps 1 person</li>
 </em>
 </article>
 <article class="entry1">
 	<em>2. Single Ensuite</em>
     <img src="{{ '/assets/accommodation/single_ensuite.png' | relative_url  }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeping 1 person</li>
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Sleeps 1 person</li>
 </em>
 </article>
 
 <article class="entry1">
 	<em>3. Twin Ensuite</em>
     <img src="{{ '/assets/accommodation/twin_ensuite.png' | relative_url }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Washbasin in room</li> <li>Sleeping 2 person</li>
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Washbasin in room</li> <li>Sleeps 2 people</li>
 </em>
 </article>
 
 <article class="entry1">
     <em>4. Double Ensuite</em>
     <img src="{{ '/assets/accommodation/double_ensuite.png' | relative_url }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeping 2 person</li>
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Sleeps 2 people</li>
 </em>
 </article>
 
 <article class="entry1">
     <em>5. Cowan Court Double Ensuite (1 person)</em>
     <img src="{{ '/assets/accommodation/cowan_court_1.png' | relative_url }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeping 1 person</li>
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Sleeps 1 person</li>
 </em>
 </article>
 
 <article class="entry1">
     <em>6. Cowan Court Double Ensuite (2 person)</em>
     <img src="{{ '/assets/accommodation/cowan_court_2.png' | relative_url }}" height="400" width="400">
-    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Tea and coffee making facilities</li> <li>Sleeping 2 person</li>
+    <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Sleeps 2 people</li>
 </em>
 </article>
 
@@ -89,10 +89,10 @@ Hotels and guest rooms can also be booked in Cambridge city center, located 20 -
 Hotels and guest rooms can also be booked around Cambridge. Some options are:
 
 ### Cambridge City Center
-Approx. 2 km (1.2 miles) to Churchill College
-<br>By Walk: 25 to 35 min
-<br>By car: 10 to 15 min
-<br>U Universal Bus Option: from Pembroke Street stop in the city center to Storey's Way stop (7 stops, approx. 13 min)
+Approximately 2 km (1.2 miles) to Churchill College
+<br>By Foot: 25 to 35 min
+<br>By Car: 10 to 15 min
+<br>By Bus: Universal U Bus from Pembroke Street stop in the city center to Storey's Way stop (7 stops, approx. 13 min)
 
 - <a href="https://www.hilton.com/en/hotels/stnhchi-hilton-cambridge-city-centre/?SEO_id=GMB-EMEA-HI-STNHCHI">Hilton Cambridge City Center</a>
 <br>Address: 20 Downing St, Cambridge CB2 3DT, UK
@@ -124,10 +124,10 @@ Tel: +44 1223 366611
 
 
 ### Cambridge Central Train Station
-Approx. 3.4 km (2 miles) to Churchill College
-<br>By Walk: 45 to 50 min
-<br>By car: 10 to 12 min
-<br>U Universal Bus Option: from Railway Station (Stop 8) outside the station to Storey's Way stop (13 stops, approx. 15 min)
+Approximately 3.4 km (2 miles) to Churchill College
+<br>By Foot: 45 to 50 min
+<br>By Car: 10 to 12 min
+<br>By Bus: Universal U Bus from Railway Station (Stop 8) outside the station to Storey's Way stop (13 stops, approx. 15 min)
 
 - <a href="https://www.claytonhotelcambridge.com/">Clayton Hotel Cambridge</a>
 <br>Address: 27-29 Station Rd, Cambridge CB1 2FB, UK
@@ -147,10 +147,10 @@ Tel: +44 1223 360246
 
 
 ### West Cambridge
-Approx. 1.5 km (0.9 miles) to Churchill College
-<br>By Walk: 18 to 20 min
-<br>By car: 5 min
-<br>U Universal Bus Option: from Sainsbury's station to Storey's Way stop (7 stops, approx. 7 min)
+Approximately 1.5 km (0.9 miles) to Churchill College
+<br>By Foot: 18 to 20 min
+<br>By Car: 5 min
+<br>By Bus: Universal U Bus from Sainsbury's station to Storey's Way stop (7 stops, approx. 7 min)
 
 - <a href="https://www.hyatt.com/en-US/hotel/england-united-kingdom/hyatt-centric-cambridge/stnct?src=corp_lclb_gmb_seo_stnct">Hyatt Centric Cambridge</a>
 <br>Address: 37 Eddington Ave, Cambridge CB3 1SE, UK
