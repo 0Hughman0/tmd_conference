@@ -40,14 +40,14 @@ The conference will be held in <a href="https://conferences.chu.cam.ac.uk/">Chur
 Cambridge railway station has frequent services from London Stansted Airport (30 minutes), London King's Cross (50 minutes), London Liverpool Street (60 minutes), the Midlands, and the North. From London Heathrow Airport you can reach London King's Cross station by the London Underground Tube (60 minutes). Cambridge railway station is situated 2 miles from Churchill College.
 
 ### Bus
-The Universal U bus travels directly from the station to Madingley Road, near the College. Information on bus services in Cambridge can be found on following link:
+The Universal U bus travels directly from the station to Madingley Road, near Churchill College. Information on all bus services in Cambridge can be found on following link:
 <a href="https://bustimes.org/services/u-madingley-road-p-r-addenbrookes-hospital">https://bustimes.org/services/u-madingley-road-p-r-addenbrookes-hospital</a>
 
 
 ### Taxi
-Taxis are available at the entrance of Cambridge railway station.
+Taxis are available at the entrance of Cambridge railway station. There is an official taxi rank, just outside Cambridge central railway station. 
 Other Taxi service providers: 
-- Smart Drivers ([http://www.smart-drivers.com](www.smart-drivers.com). Tel: 01223 901205. Email: info@smart-drivers.com) 
+- Smart Drivers ([http://www.smart-drivers.com](www.smart-drivers.com). Tel: 01223 901205. Mob: 07887 887 213. Email: info@smart-drivers.com) 
 - Panther (Tel: 01223 715715)
 - Uber
 - Bolt
