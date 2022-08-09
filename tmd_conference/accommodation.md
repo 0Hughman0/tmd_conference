@@ -90,7 +90,7 @@ Hotels and guest rooms can also be booked around Cambridge. Some options are:
 
 ### Cambridge City Center
 Approximately 2 km (1.2 miles) to Churchill College
-<br>By Foot: 25 to 35 min
+<br>On Foot: 25 to 35 min
 <br>By Car: 10 to 15 min
 <br>By Bus: Universal U Bus from Pembroke Street stop in the city center to Storey's Way stop (7 stops, approx. 13 min)
 
@@ -125,7 +125,7 @@ Tel: +44 1223 366611
 
 ### Cambridge Central Train Station
 Approximately 3.4 km (2 miles) to Churchill College
-<br>By Foot: 45 to 50 min
+<br>On Foot: 45 to 50 min
 <br>By Car: 10 to 12 min
 <br>By Bus: Universal U Bus from Railway Station (Stop 8) outside the station to Storey's Way stop (13 stops, approx. 15 min)
 
@@ -148,7 +148,7 @@ Tel: +44 1223 360246
 
 ### West Cambridge
 Approximately 1.5 km (0.9 miles) to Churchill College
-<br>By Foot: 18 to 20 min
+<br>On Foot: 18 to 20 min
 <br>By Car: 5 min
 <br>By Bus: Universal U Bus from Sainsbury's station to Storey's Way stop (7 stops, approx. 7 min)
 
