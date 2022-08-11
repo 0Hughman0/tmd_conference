@@ -7,3 +7,4 @@ tmd_conference/Gemfile.lock
 .bundle
 tmd_conference/_site
 .DS_Store
+.jekyll-cache
