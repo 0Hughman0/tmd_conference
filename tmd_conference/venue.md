@@ -47,6 +47,7 @@ The Universal U bus travels directly from the station to Madingley Road, near Ch
 ### Taxi
 Taxis are available at the entrance of Cambridge railway station. There is an official taxi rank, just outside Cambridge central railway station. 
 Other Taxi service providers: 
+- CamCabs ([http://www.camcab.co.uk/](www.smart-drivers.com)). 
 - Smart Drivers ([http://www.smart-drivers.com](www.smart-drivers.com). Tel: 01223 901205. Mob: 07887 887 213. Email: info@smart-drivers.com) 
 - Panther (Tel: 01223 715715)
 - Uber
