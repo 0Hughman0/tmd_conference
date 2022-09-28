@@ -17,7 +17,7 @@ The conference will be held in <a href="https://conferences.chu.cam.ac.uk/">Chur
 
 
 <article class="entry">
-    <em>Google Map</em>
+    <em>Map of West Cambridge</em>
     <img src="{{ '/assets/churchill/googlemap.png' | relative_url }}" height="400" width="400">
     <em>Travel information on how to get to Churchill College can be found here: <a href="https://www.chu.cam.ac.uk/about/visit-us/find-us/">https://www.chu.cam.ac.uk/about/visit-us/find-us/</a></em>
 
