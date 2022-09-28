@@ -11,7 +11,7 @@ Rooms within Churchill College are available to participants of 2D TMDs 2023.
 
 **[Click here to be redirected to Churchill College's booking page](https://conferences.chu.cam.ac.uk/bandb/)** - *The event code **KX52781** must be used during your reservation to ensure room availability.*
 
-If you are considering bringing children to attend the conference, please [contact Ana directly here](mailto:ajt69@cam.ac.uk), as this will require a separate booking process. Cases will be considered by Churchill College on an individual basis.
+If you are considering bringing children to attend the conference, please contact Ms Ana Talaban-Bailey by email (ajt69@cam.ac.uk), as this will require a separate booking process. Cases will be considered by Churchill College on an individual basis.
 
 The room types available are:
 
