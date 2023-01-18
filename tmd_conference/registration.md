@@ -4,8 +4,8 @@ title: Registration
 permalink: /registration/
 ---
 
-Registration - Will Begin in September
-======================================
+
+**[Click here to be redirected to the registration payment page](https://onlinesales.admin.cam.ac.uk/conferences-and-events/materials-science-metallurgy/2d-tmds-2023/2d-tmds-2023)**
 
 Conference Fees
 ---------------

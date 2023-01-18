@@ -17,7 +17,7 @@ The conference will be held in <a href="https://conferences.chu.cam.ac.uk/">Chur
 
 
 <article class="entry">
-    <em>Google Map</em>
+    <em>Map of West Cambridge</em>
     <img src="{{ '/assets/churchill/googlemap.png' | relative_url }}" height="400" width="400">
     <em>Travel information on how to get to Churchill College can be found here: <a href="https://www.chu.cam.ac.uk/about/visit-us/find-us/">https://www.chu.cam.ac.uk/about/visit-us/find-us/</a></em>
 
@@ -47,6 +47,7 @@ The Universal U bus travels directly from the station to Madingley Road, near Ch
 ### Taxi
 Taxis are available at the entrance of Cambridge railway station. There is an official taxi rank, just outside Cambridge central railway station. 
 Other Taxi service providers: 
+- CamCabs ([http://www.camcab.co.uk/](www.smart-drivers.com)). 
 - Smart Drivers ([http://www.smart-drivers.com](www.smart-drivers.com). Tel: 01223 901205. Mob: 07887 887 213. Email: info@smart-drivers.com) 
 - Panther (Tel: 01223 715715)
 - Uber
