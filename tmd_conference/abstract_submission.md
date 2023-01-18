@@ -3,7 +3,7 @@ layout: page
 title: Abstract Submission
 permalink: /abstract_submission/
 ---
-Abstract submission is open.
+Abstract submission is open until the 15th of April 2023.
 
 **We strongly encourage participation and welcome abstract submissions from students and postdoctoral researchers for poster presentations.**
 
