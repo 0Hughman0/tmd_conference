@@ -60,3 +60,15 @@ introduction: |
 	</article>
 {% endfor %}
 </div>
+
+## Sponsors
+
+{% assign sponsors = "Aixtron.svg;HeidelbergInstruments.png;OxfordInstruments.png" | split: ";"  %}
+
+<div class="tmd-sponsors">
+	{% for logoName in sponsors %}
+	<article class="tmd-sponsors">
+		<img src="{{ '/assets/sponsors/' | relative_url }}{{logoName}}" class="logo">
+	</article>
+	{% endfor %}
+</div>

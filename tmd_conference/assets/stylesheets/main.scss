@@ -164,6 +164,34 @@ img.portrait{
 	border-radius: 50%;
 }
 
+/* sponsor section */
+
+div.tmd-sponsors{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	height: auto;
+}
+
+article.tmd-sponsors{
+	display: grid;
+	place-items: center;
+	margin: 0vw 2.5vw 0vw 2.5vw;
+	border-bottom: none;
+	text-align: center;
+	max-width: inherit;
+	flex-basis: 200px;
+}
+
+img.logo{
+	width: 300px;
+	height: auto;
+	max-width: 60vw;
+}
+
+
+
 /* footer */
 
 #footer {
