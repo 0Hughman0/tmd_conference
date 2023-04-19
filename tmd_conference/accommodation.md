@@ -7,7 +7,7 @@ permalink: /accommodation/
 
 ## Rooms at Churchill College
 
-Rooms within Churchill College are available to participants of 2D TMDs 2023. 
+Rooms within Churchill College are available for participants of 2D TMDs 2023. **Please note, there is no more room availability for the night of the 25th of June.**
 
 **[Click here to be redirected to Churchill College's booking page](https://conferences.chu.cam.ac.uk/bandb/)** - *The event code **KX52781** must be used during your reservation to ensure room availability.*
 
