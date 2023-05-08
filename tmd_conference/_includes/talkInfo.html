@@ -1,0 +1,8 @@
+{{ include.text }}<b>{{ include.speaker }}</b><br>
+<p onClick="showTalkInfo('{{ include.text }}{{ include.speaker }}')">{{ include.title }}</p>
+<div style="display:none" class="talk-info" id="{{ include.text }}{{ include.speaker }}">
+	<button onclick="hideTalkInfo('{{ include.text }}{{ include.speaker }}')" style="position:absolute;right:5px">✖</button>
+	<h2>{{ include.speaker }}</h2>
+	<h3>{{ include.title }}</h3>
+	<p>{{ include.abstract }}</p>
+</div>
