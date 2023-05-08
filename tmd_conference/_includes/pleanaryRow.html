@@ -1,5 +1,3 @@
-<td colspan=3>
-	{{ include.text }}<b>{{ include.speaker }}</b><br>
-	<p>{{ include.title }}</p>
+<td colspan=4 class="centred">
+	{% include talkInfo.html text=include.text speaker=include.speaker title=include.title abstract=include.abstract %}
 </td>
- 
