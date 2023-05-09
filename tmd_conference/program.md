@@ -9,7 +9,7 @@ permalink: /program/
 <table>
 	{% for item in site.data.program_monday %}
 	<tr>
-	<td><b>{{ item.Time }}</b></td>
+	<td class="time-row"><b>{{ item.Time }}</b></td>
 	{% case item.Type %}
 		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
 			{% include mealRow.html text=item.Text type=item.Type %}
@@ -28,14 +28,30 @@ permalink: /program/
 </table>
 
 <script>
+var main = document.getElementById("main");
+main.onclick = mainHandleClick;
+
+var displayed = new Set();
+
 function showTalkInfo(id) {
 	var el = document.getElementById(id);
 	el.style.display= "block";
+	displayed.add(el);
 }
 function hideTalkInfo(id) {
 	var el = document.getElementById(id);
-	el.style.display= "none";
-	
+	el.style.display = "none";
+	displayed.delete(el);
 }
+function hideAll() {
+	for (const el of displayed) {
+		el.style.display = "none";
+	}
+	displayed.clear();
+}
+function mainHandleClick(event) {
+	hideAll();
+}
+
 </script>
 
