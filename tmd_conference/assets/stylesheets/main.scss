@@ -9,12 +9,6 @@
 
 @import "basically-basic";
 
-/* tweaks */
-
-div.wrapper {
-	transform: none; /* needed otherwise display fixed doesn't work for some reason. */
-}
-
 /* general */
 
 img.site-logo{
@@ -50,22 +44,6 @@ div.topics-grid{
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
-div.talk-info{
-	position: fixed;
-	background-color: white;
-	overflow: auto;
-	border: 1px solid #cccccc;
-	border-radius: 2px;
-	top: 10%;
-	left: 10%;
-	width: 80%;
-	height: 80%;
-	overflow: auto;
-	padding: 5px;
-	text-align: left;
-}	
-
 
 @media (max-width: 576px) {
 	div.topics-grid{
