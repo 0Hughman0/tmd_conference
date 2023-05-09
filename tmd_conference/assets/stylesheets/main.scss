@@ -32,6 +32,7 @@ div.entry{
 div.entry-content{
 	place-items: center;
 	width: 100% !important;
+	overflow: auto;
 }
 
 
@@ -82,6 +83,10 @@ div.talk-info{
 
 table.schedule {
 	max-width: 700px;
+}
+
+td.time-row {
+	min-width: 125px;
 }
 
 /* top menu */
