@@ -7,7 +7,76 @@ permalink: /program/
 # Monday
 
 <table>
-	{% for item in site.data.program_monday %}
+	{% for item in site.data.Monday_program %}
+	<tr>
+	<td class="time-row"><b>{{ item.Time }}</b></td>
+	{% case item.Type %}
+		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
+			{% include mealRow.html text=item.Text type=item.Type %}
+		{% when "Plenary" %}
+			{% include pleanaryRow.html text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
+		{% when "Invited" %}
+			{% include speakerRow.html speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA
+									   speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB
+									   speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC
+									   speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD %}
+		{% when "Poster Session" %}
+			{% include mealRow.html text=item.Text type=item.Type %}
+	{% endcase %}
+	</tr>
+	{% endfor %}
+</table>
+
+# Tuesday
+
+<table>
+	{% for item in site.data.Tuesday_program %}
+	<tr>
+	<td class="time-row"><b>{{ item.Time }}</b></td>
+	{% case item.Type %}
+		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
+			{% include mealRow.html text=item.Text type=item.Type %}
+		{% when "Plenary" %}
+			{% include pleanaryRow.html text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
+		{% when "Invited" %}
+			{% include speakerRow.html speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA
+									   speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB
+									   speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC
+									   speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD %}
+		{% when "Poster Session" %}
+			{% include mealRow.html text=item.Text type=item.Type %}
+	{% endcase %}
+	</tr>
+	{% endfor %}
+</table>
+
+# Wednesday
+
+<table>
+	{% for item in site.data.Wednesday_program %}
+	<tr>
+	<td class="time-row"><b>{{ item.Time }}</b></td>
+	{% case item.Type %}
+		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
+			{% include mealRow.html text=item.Text type=item.Type %}
+		{% when "Plenary" %}
+			{% include pleanaryRow.html text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
+		{% when "Invited" %}
+			{% include speakerRow.html speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA
+									   speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB
+									   speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC
+									   speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD %}
+		{% when "Poster Session" %}
+			{% include mealRow.html text=item.Text type=item.Type %}
+	{% endcase %}
+	</tr>
+	{% endfor %}
+</table>
+
+# Thursday
+
+<table>
+	{% for item in site.data.Thursday_program %}
 	<tr>
 	<td class="time-row"><b>{{ item.Time }}</b></td>
 	{% case item.Type %}
