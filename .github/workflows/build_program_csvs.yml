@@ -18,14 +18,14 @@ jobs:
         steps:
             - uses: actions/checkout@v3
             - uses: actions/setup-python@v4
-            with:
+              with:
                 python-version: '3.9'
                 cache: 'pip' # caching pip dependencies
             - run: pip install -r requirements.txt
             - run: python create_program_csvs.py
 
-          - name: check for errors!
-            run: git status -uno --porcelain
-            
-          - name: check it's there
-            run: ls -R
+            - name: check for errors!
+              run: git status -uno --porcelain
+
+            - name: check it's there
+              run: ls -R
