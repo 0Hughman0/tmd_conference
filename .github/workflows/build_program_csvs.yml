@@ -12,6 +12,7 @@ jobs:
   # This workflow contains a single job called "build"
     fetch:
         name: "Fetch the program xlsx from google drive"
+        runs-on: ubuntu-latest
         
         steps:
             - name: "get files"
