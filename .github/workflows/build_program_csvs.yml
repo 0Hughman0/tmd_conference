@@ -16,7 +16,7 @@ jobs:
         
         steps:
             - name: "get files"
-              run: curl -L -o="program.xlsx" "https://docs.google.com/uc?export=download&id=1hu7gxom_zlH_HVzS48i7wUDgGXDm-4ZS"
+              run: curl -L -o "program.xlsx" "https://docs.google.com/uc?export=download&id=1hu7gxom_zlH_HVzS48i7wUDgGXDm-4ZS"
             
             - name: "check all good"
               run: ls -R
