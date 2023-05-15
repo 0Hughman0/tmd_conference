@@ -4,6 +4,10 @@ title: Program
 permalink: /program/
 ---
 
+Quicklinks:
+
+<a href="#monday">[Monday]</a> - <a href="#tuesday">[Tuesday]</a> - <a href="#wednesday">[Wednesday]</a> - <a href="#thursday">[Thursday]</a>
+
 # Monday
 
 <table>
