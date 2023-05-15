@@ -8,3 +8,4 @@ tmd_conference/Gemfile.lock
 tmd_conference/_site
 .DS_Store
 .jekyll-cache
+tmd_conference/_data/*_program.csv
