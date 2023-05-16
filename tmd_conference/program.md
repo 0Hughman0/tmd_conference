@@ -20,10 +20,10 @@ Quicklinks:
 		{% when "Plenary" %}
 			{% include pleanaryRow.html text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
 		{% when "Invited" %}
-			{% include speakerRow.html speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA
-									   speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB
-									   speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC
-									   speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD %}
+			{% include speakerRow.html speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA affiliationA=item.AffiliationA
+									   speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB affiliationB=item.AffiliationB
+									   speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC affiliationC=item.AffiliationC
+									   speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD affiliationD=item.AffiliationD %}
 		{% when "Poster Session" %}
 			{% include mealRow.html text=item.Text type=item.Type %}
 	{% endcase %}

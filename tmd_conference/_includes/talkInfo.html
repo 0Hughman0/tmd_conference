@@ -5,7 +5,9 @@
 	<div style="display:none" class="talk-info" id="{{ include.text }}{{ include.speaker }}">
 		<button onclick="hideTalkInfo('{{ include.text }}{{ include.speaker }}')" style="position:absolute;right:5px;cursor:pointer">✖</button>
 		<h2>{{ include.speaker }}</h2>
+		<h4>{{ include.affiliation }}</h4>
 		<h3>{{ include.title }}</h3>
+		
 		<p>{{ include.abstract }}</p>
 	</div>
 </div>
