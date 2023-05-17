@@ -7,6 +7,8 @@ permalink: /registration/
 
 **[Click here to be redirected to the registration payment page](https://onlinesales.admin.cam.ac.uk/conferences-and-events/materials-science-metallurgy/2d-tmds-2023/2d-tmds-2023)**
 
+### Please be aware no refunds will be issued for cancellations after the 9th of June.
+
 Conference Fees
 ---------------
 
@@ -43,3 +45,4 @@ Conference Fees
 **In case of any problems with online payment, on-site payment will be
 available.**
 
+**Please be aware no refunds will be issued for cancellations after the 9th of June.**
