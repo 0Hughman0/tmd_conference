@@ -7,6 +7,9 @@ permalink: /accommodation/
 
 ## Rooms at Churchill College
 
+Churchill College is now FULL and not able to offer any more availability for the week of our conference.
+
+<!--
 Rooms within Churchill College are available for participants of 2D TMDs 2023. **Please note, there is no more room availability for the night of the 25th of June.**
 
 **[Click here to be redirected to Churchill College's booking page](https://conferences.chu.cam.ac.uk/bandb/)** - *The event code **KX52781** must be used during your reservation to ensure room availability.*
@@ -66,7 +69,8 @@ The room types available are:
 <br>
 <br>
 
-<!--
+-->
+
 ## Hotels
 Hotels and guest rooms can also be booked in Cambridge city center, located 20 - 30 minutes by walk or ~ 10 mins by bike. Some options around Cambridge are:
 
@@ -89,7 +93,6 @@ Hotels and guest rooms can also be booked in Cambridge city center, located 20 -
 </article>
 
 </div>
--->
 
 
 ## Hotels
