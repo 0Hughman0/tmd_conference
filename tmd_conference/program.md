@@ -12,7 +12,7 @@ Quicklinks:
 
 <table>
 	{% for item in site.data.Monday_program %}
-	<tr>
+	<tr class="top-aligned">
 	<td class="time-row"><b>{{ item.Time }}</b></td>
 	{% case item.Type %}
 		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
@@ -35,7 +35,7 @@ Quicklinks:
 
 <table>
 	{% for item in site.data.Tuesday_program %}
-	<tr>
+	<tr class="top-aligned">
 	<td class="time-row"><b>{{ item.Time }}</b></td>
 	{% case item.Type %}
 		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
@@ -58,7 +58,7 @@ Quicklinks:
 
 <table>
 	{% for item in site.data.Wednesday_program %}
-	<tr>
+	<tr class="top-aligned">
 	<td class="time-row"><b>{{ item.Time }}</b></td>
 	{% case item.Type %}
 		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
@@ -81,7 +81,7 @@ Quicklinks:
 
 <table>
 	{% for item in site.data.Thursday_program %}
-	<tr>
+	<tr class="top-aligned">
 	<td class="time-row"><b>{{ item.Time }}</b></td>
 	{% case item.Type %}
 		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
@@ -125,6 +125,8 @@ function hideAll() {
 function mainHandleClick(event) {
 	hideAll();
 }
+
+document.addEventListener('keydown', (event) => {switch (event.keyCode) {case 27: hideAll()}})
 
 </script>
 
