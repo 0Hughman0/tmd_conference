@@ -8,6 +8,6 @@
 		<h4>{{ include.affiliation }}</h4>
 		<h3>{{ include.title }}</h3>
 		
-		<p>{{ include.abstract }}</p>
+		{{ include.abstract | markdownify }}
 	</div>
 </div>
