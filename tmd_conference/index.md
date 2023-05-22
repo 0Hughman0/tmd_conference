@@ -63,7 +63,7 @@ introduction: |
 
 ## Sponsors
 
-{% assign sponsors = "Aixtron.svg;attocube.jpg;HeidelbergInstruments.png;OxfordInstruments.png;Royal Society of Chemistry.png" | split: ";"  %}
+{% assign sponsors = "Aixtron.svg;attocube.jpg;HeidelbergInstruments.png;HenryRoyceInstitute.png;OxfordInstruments.png;Royal Society of Chemistry.png" | split: ";"  %}
 
 <div class="tmd-sponsors">
 	{% for logoName in sponsors %}
