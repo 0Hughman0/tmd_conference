@@ -9,12 +9,12 @@ title: Poster Program
 	<tr>
 		<th>Poster</th>
 		<th>Info</th>
-	</tr>	
+	</tr>
 	{% for item in site.data.Posters_program %}
 	<tr class="top-aligned">
 		<td class="time-row"><b>{{ forloop.index }}</b></td>
 		<td>
-			{% include talkInfo.html time="19:30 - 21:00" room="TBC" speaker=item.Name title=item.Title abstract=item.Abstract %}
+			{% include talkInfo.html time="19:30 - 21:00" room="TBC" num=forloop.index0 speaker=item.Name title=item.Title abstract=item.Abstract %}
 		</td>
 	</tr>
 	{% endfor %}
@@ -27,6 +27,7 @@ main.onclick = mainHandleClick;
 var displayed = new Set();
 
 function showTalkInfo(id) {
+	hideAll();
 	var el = document.getElementById(id);
 	el.style.display= "block";
 	displayed.add(el);
