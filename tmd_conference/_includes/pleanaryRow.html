@@ -1,3 +1,6 @@
 <td colspan=4 class="centred">
-	{% include talkInfo.html text=include.text speaker=include.speaker title=include.title abstract=include.abstract %}
+	{% capture text %}
+	{{ include.text }} ({{ include.room }}):
+	{% endcapture %}
+	{% include talkInfo.html time=include.time room=include.room text=text speaker=include.speaker title=include.title abstract=include.abstract %}
 </td>
