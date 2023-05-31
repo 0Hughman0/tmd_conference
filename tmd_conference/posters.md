@@ -9,7 +9,6 @@ title: Poster Program
 	<tr>
 		<th>Poster</th>
 		<th>Info</th>
-		<th style="width:10%">Keywords</th>
 	</tr>	
 	{% for item in site.data.Posters_program %}
 	<tr class="top-aligned">
@@ -17,7 +16,6 @@ title: Poster Program
 		<td>
 			{% include talkInfo.html time="19:30 - 21:00" room="TBC" speaker=item.Name title=item.Title abstract=item.Abstract %}
 		</td>
-		<td>"{{ item.Keywords | split: ";" | join: '", "' }}"</td>
 	</tr>
 	{% endfor %}
 </table>
