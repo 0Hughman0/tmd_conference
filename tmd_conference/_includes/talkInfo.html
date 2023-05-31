@@ -1,0 +1,13 @@
+<div onclick="event.stopPropagation()">
+	{{ include.text }}<b>{{ include.speaker }}</b><br>
+	<p onClick="showTalkInfo('{{ include.text }}{{ include.speaker }}')" class="talk-info-button">{{ include.title }}</p>
+	{% if include.title %}<a onclick="showTalkInfo('{{ include.text }}{{ include.speaker }}')" class="talk-info-button">[More Info]</a>{% endif %}
+	<div style="display:none" class="talk-info" id="{{ include.text }}{{ include.speaker }}">
+		<button onclick="hideTalkInfo('{{ include.text }}{{ include.speaker }}')" style="position:absolute;right:5px;cursor:pointer">✖</button>
+		<h2>{{ include.speaker }}</h2>
+		<h4>{{ include.affiliation }}</h4>
+		<h3>{{ include.title }}</h3>
+		
+		{{ include.abstract | markdownify }}
+	</div>
+</div>
