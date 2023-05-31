@@ -10,10 +10,14 @@ Quicklinks:
 
 [\[Poster Session Program\]]({{ "/posters/" | relative_url }})
 
-# Sunday
+{% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
+{% for day in days %}
+
+# {{ day }}
 
 <table>
-	{% for item in site.data.Sunday_program %}
+	{% assign data_file = day | append: "_program" %}
+	{% for item in site.data[data_file] %}
 	<tr class="top-aligned">
 	<td class="time-row"><b>{{ item.Time }}</b></td>
 	{% case item.Type %}
@@ -25,6 +29,7 @@ Quicklinks:
 			{% include pleanaryRow.html time=item.Time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
 		{% when "Invited" %}
 			{% include speakerRow.html time=item.Time
+									   prefix="Monday"
 									   speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA affiliationA=item.AffiliationA roomA=item.RoomA
 									   speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB affiliationB=item.AffiliationB roomB=item.RoomA
 									   speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC affiliationC=item.AffiliationC roomC=item.RoomA
@@ -36,83 +41,7 @@ Quicklinks:
 	{% endfor %}
 </table>
 
-# Monday
-
-<table>
-	{% for item in site.data.Monday_program %}
-	<tr class="top-aligned">
-	<td class="time-row"><b>{{ item.Time }}</b></td>
-	{% case item.Type %}
-		{% when "Rooms" %}
-			{% include roomRow.html roomA=item.RoomA roomB=item.RoomB roomC=item.RoomC roomD=item.RoomD %}
-		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal", "Other" %}
-			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA%}
-		{% when "Plenary" %}
-			{% include pleanaryRow.html time=item.Time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
-		{% when "Invited" %}
-			{% include speakerRow.html time=item.Time
-									   speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA affiliationA=item.AffiliationA roomA=item.RoomA
-									   speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB affiliationB=item.AffiliationB roomB=item.RoomA
-									   speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC affiliationC=item.AffiliationC roomC=item.RoomA
-									   speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD affiliationD=item.AffiliationD roomD=item.RoomA %}
-		{% when "Poster Session" %}
-			{% include posterRow.html %}
-	{% endcase %}
-	</tr>
-	{% endfor %}
-</table>
-
-# Wednesday
-
-<table>
-	{% for item in site.data.Wednesday_program %}
-	<tr class="top-aligned">
-	<td class="time-row"><b>{{ item.Time }}</b></td>
-	{% case item.Type %}
-		{% when "Rooms" %}
-			{% include roomRow.html roomA=item.RoomA roomB=item.RoomB roomC=item.RoomC roomD=item.RoomD %}
-		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal", "Other" %}
-			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA%}
-		{% when "Plenary" %}
-			{% include pleanaryRow.html time=item.Time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
-		{% when "Invited" %}
-			{% include speakerRow.html time=item.Time
-									   speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA affiliationA=item.AffiliationA roomA=item.RoomA
-									   speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB affiliationB=item.AffiliationB roomB=item.RoomA
-									   speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC affiliationC=item.AffiliationC roomC=item.RoomA
-									   speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD affiliationD=item.AffiliationD roomD=item.RoomA %}
-		{% when "Poster Session" %}
-			{% include posterRow.html %}
-	{% endcase %}
-	</tr>
-	{% endfor %}
-</table>
-
-# Thursday
-
-<table>
-	{% for item in site.data.Thursday_program %}
-	<tr class="top-aligned">
-	<td class="time-row"><b>{{ item.Time }}</b></td>
-	{% case item.Type %}
-		{% when "Rooms" %}
-			{% include roomRow.html roomA=item.RoomA roomB=item.RoomB roomC=item.RoomC roomD=item.RoomD %}
-		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal", "Other" %}
-			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA%}
-		{% when "Plenary" %}
-			{% include pleanaryRow.html time=item.Time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
-		{% when "Invited" %}
-			{% include speakerRow.html time=item.Time
-									   speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA affiliationA=item.AffiliationA roomA=item.RoomA
-									   speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB affiliationB=item.AffiliationB roomB=item.RoomA
-									   speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC affiliationC=item.AffiliationC roomC=item.RoomA
-									   speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD affiliationD=item.AffiliationD roomD=item.RoomA %}
-		{% when "Poster Session" %}
-			{% include posterRow.html %}
-	{% endcase %}
-	</tr>
-	{% endfor %}
-</table>
+{% endfor %}
 
 <script>
 var main = document.getElementById("main");
