@@ -33,11 +33,10 @@ Quicklinks:
 		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal", "Other" %}
 			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA%}
 		{% when "Plenary" %}
-			{% include pleanaryRow.html day=day num=talkCountP time=item.Time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
+			{% include pleanaryRow.html num=talkCountP time=item.Time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
 			{% assign talkCountP = talkCountP | plus: 1 %}
 		{% when "Invited" %}
 			{% include speakerRow.html time=item.Time
-									   day=day
 									   numA=talkCountA speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA affiliationA=item.AffiliationA roomA=item.RoomA
 									   numB=talkCountB speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB affiliationB=item.AffiliationB roomB=item.RoomA
 									   numC=talkCountC speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC affiliationC=item.AffiliationC roomC=item.RoomA

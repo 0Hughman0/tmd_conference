@@ -12,10 +12,10 @@
 	<p onClick="showTalkInfo('{{ id }}')" class="talk-info-button">{{ include.title }}</p>
 	{% if include.title %}<a onclick="showTalkInfo('{{ id }}')" class="talk-info-button">[More Info]</a>{% endif %}
 	<div style="display:none" class="talk-info" id="{{ id }}">
-		<div style="position:absolute;right:5px">
+		<div style="position:absolute;right:5px;text-align:right">
 			<b>{{ include.room }}, {{ include.time }}</b>
 			<button onclick="hideTalkInfo('{{ id }}')" style="cursor:pointer">✖</button>
-			<div style="text-align:right;cursor:pointer">
+			<div style="cursor:pointer">
 				<a onclick="showTalkInfo('{{ prev_id }}')">&lt; View Prev</a> | <a onclick="showTalkInfo('{{ next_id }}')">View Next &gt;</a>
 			</div>
 		</div>
