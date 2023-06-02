@@ -21,6 +21,7 @@ for schedule in program.values():
 for day, schedule in program.items():
     file = DATA_FOLDER / f'{day}_program.csv'
     print("Creating", file)
+    schedule = schedule.dropna(axis='index', how='all') # remove empty columns.
     schedule.to_csv(file)
     
     
