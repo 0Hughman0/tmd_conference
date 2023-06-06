@@ -30,8 +30,8 @@ Quicklinks:
 	{% case item.Type %}
 		{% when "Rooms" %}
 			{% include roomRow.html roomA=item.RoomA roomB=item.RoomB roomC=item.RoomC roomD=item.RoomD %}
-		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal", "Other" %}
-			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA%}
+		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
+			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA %}
 		{% when "Plenary" %}
 			{% include pleanaryRow.html num=talkCountP time=item.Time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
 			{% assign talkCountP = talkCountP | plus: 1 %}
@@ -49,6 +49,9 @@ Quicklinks:
 
 		{% when "Poster Session" %}
 			{% include posterRow.html %}
+
+		{% else %}
+			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA %}
 	{% endcase %}
 	</tr>
 	{% endfor %}
