@@ -63,12 +63,15 @@ Quicklinks:
 var main = document.getElementById("main");
 main.onclick = mainHandleClick;
 
+window.onload = () => {showTalkInfo(window.location.hash.slice(1))}
+
 var displayed = new Set();
 
 function showTalkInfo(id) {
 	hideAll();
 	var el = document.getElementById(id);
 	el.style.display= "block";
+	window.location.hash = id;
 	displayed.add(el);
 }
 function hideTalkInfo(id) {

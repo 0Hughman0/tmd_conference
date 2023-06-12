@@ -14,40 +14,10 @@ title: Poster Program
 	<tr class="top-aligned">
 		<td class="time-row"><b>{{ item.ID }}</b></td>
 		<td>
-			{% include talkInfo.html time="19:30 - 21:00" room="TBC" num=forloop.index0 speaker=item.Name title=item.Title abstract=item.Abstract affiliation=item.Affiliation %}
+			{% include talkInfo.html time="19:30 - 21:00" room="Concourse" num=forloop.index0 speaker=item.Name title=item.Title abstract=item.Abstract affiliation=item.Affiliation %}
 		</td>
 	</tr>
 	{% endfor %}
 </table>
 
-<script>
-var main = document.getElementById("main");
-main.onclick = mainHandleClick;
-
-var displayed = new Set();
-
-function showTalkInfo(id) {
-	hideAll();
-	var el = document.getElementById(id);
-	el.style.display= "block";
-	displayed.add(el);
-}
-function hideTalkInfo(id) {
-	var el = document.getElementById(id);
-	el.style.display = "none";
-	displayed.delete(el);
-}
-function hideAll() {
-	for (const el of displayed) {
-		el.style.display = "none";
-	}
-	displayed.clear();
-}
-function mainHandleClick(event) {
-	hideAll();
-}
-
-document.addEventListener('keydown', (event) => {switch (event.keyCode) {case 27: hideAll()}})
-
-</script>
-
+{% include talkInfoJS.html %}
