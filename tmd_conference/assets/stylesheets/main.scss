@@ -9,6 +9,12 @@
 
 @import "basically-basic";
 
+/* tweaks */
+
+div.wrapper {
+	transform: none; /* needed otherwise display fixed doesn't work for some reason. */
+}
+
 /* general */
 
 img.site-logo{
@@ -26,6 +32,7 @@ div.entry{
 div.entry-content{
 	place-items: center;
 	width: 100% !important;
+	overflow: auto;
 }
 
 
@@ -45,6 +52,25 @@ div.topics-grid{
 	justify-content: center;
 }
 
+div.talk-info{
+	position: fixed;
+	background-color: white;
+	overflow: auto;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 80%;
+	overflow: auto;
+	padding: 5px;
+	text-align: left;
+}	
+a.talk-info-button,
+p.talk-info-button {
+	cursor: pointer;
+}
+
 @media (max-width: 576px) {
 	div.topics-grid{
 		justify-content: flex-start;
@@ -58,8 +84,17 @@ div.topics-grid{
 	text-align: center;
 }
 
+.top-aligned {
+	vertical-align: top;
+}
+
 table.schedule {
 	max-width: 700px;
+}
+
+td.time-row {
+	width: 125px;
+	text-align: center;
 }
 
 /* top menu */

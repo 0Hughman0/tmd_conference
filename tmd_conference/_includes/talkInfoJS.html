@@ -1,0 +1,34 @@
+
+<script>
+    var main = document.getElementById("main");
+    main.onclick = mainHandleClick;
+    
+    window.onload = () => {showTalkInfo(window.location.hash.slice(1))}
+    
+    var displayed = new Set();
+    
+    function showTalkInfo(id) {
+        hideAll();
+        var el = document.getElementById(id);
+        el.style.display= "block";
+        window.location.hash = id;
+        displayed.add(el);
+    }
+    function hideTalkInfo(id) {
+        var el = document.getElementById(id);
+        el.style.display = "none";
+        displayed.delete(el);
+    }
+    function hideAll() {
+        for (const el of displayed) {
+            el.style.display = "none";
+        }
+        displayed.clear();
+    }
+    function mainHandleClick(event) {
+        hideAll();
+    }
+    
+    document.addEventListener('keydown', (event) => {switch (event.keyCode) {case 27: hideAll()}})
+    
+</script>
