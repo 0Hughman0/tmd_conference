@@ -32,7 +32,7 @@ Quicklinks:
 			{% include roomRow.html roomA=item.RoomA roomB=item.RoomB roomC=item.RoomC roomD=item.RoomD %}
 		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
 			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA %}
-		{% when "Plenary" %}
+		{% when "Plenary", "Editoral Session" %}
 			{% include pleanaryRow.html num=talkCountP time=item.Time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA %}
 			{% assign talkCountP = talkCountP | plus: 1 %}
 		{% when "Invited" %}
@@ -59,37 +59,5 @@ Quicklinks:
 
 {% endfor %}
 
-<script>
-var main = document.getElementById("main");
-main.onclick = mainHandleClick;
-
-window.onload = () => {showTalkInfo(window.location.hash.slice(1))}
-
-var displayed = new Set();
-
-function showTalkInfo(id) {
-	hideAll();
-	var el = document.getElementById(id);
-	el.style.display= "block";
-	window.location.hash = id;
-	displayed.add(el);
-}
-function hideTalkInfo(id) {
-	var el = document.getElementById(id);
-	el.style.display = "none";
-	displayed.delete(el);
-}
-function hideAll() {
-	for (const el of displayed) {
-		el.style.display = "none";
-	}
-	displayed.clear();
-}
-function mainHandleClick(event) {
-	hideAll();
-}
-
-document.addEventListener('keydown', (event) => {switch (event.keyCode) {case 27: hideAll()}})
-
-</script>
+{% include talkInfoJS.html %}
 
