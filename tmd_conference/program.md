@@ -60,4 +60,3 @@ Quicklinks:
 {% endfor %}
 
 {% include talkInfoJS.html %}
-
