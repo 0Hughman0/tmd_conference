@@ -4,16 +4,26 @@ title: Program
 permalink: /program/
 ---
 
-## Quicklinks:
+{% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 
-<a href="#monday">[Monday]</a> - <a href="#tuesday">[Tuesday]</a> - <a href="#wednesday">[Wednesday]</a> - <a href="#thursday">[Thursday]</a>
+<div style="display:flex;flex-wrap:wrap">
+	<div style="flex: 1 0">
+		<h2>Quicklinks:</h2>
 
-[\[Poster Session Program\]]({{ "/posters/" | relative_url }})
+		<div class="program-menu">
+			{% for day in days %}
+			<a class="menu-item program-menu-item" href="#{{ day | downcase }}"><div class="menu-item program-menu-item">{{ day }}</div></a>
+			{% endfor %}
+			<a class="menu-item program-menu-item" href="{{ '/posters/' | relative_url }}"><div class="menu-item program-menu-item">Poster Session Program</div></a>
+		</div>
+	</div>
+	<div style="flex: 0 0 400px">
+		<h2>Latest Updates:</h2>
 
-## Latest Updates:
-
-<div class="twitter-feed" style="max-width:30%;max-height:500px">
-	<a class="twitter-timeline" href="https://twitter.com/2D_TMDs_2023?ref_src=twsrc%5Etfw">Tweets by 2D_TMDs_2023</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+		<div class="twitter-feed">
+			<a class="twitter-timeline" data-height="300px" href="https://twitter.com/2D_TMDs_2023?ref_src=twsrc%5Etfw">Tweets by 2D_TMDs_2023</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+		</div>
+	</div>
 </div>
 
 {% assign talkCountP = 0 %}
@@ -22,10 +32,9 @@ permalink: /program/
 {% assign talkCountC = 0 %}
 {% assign talkCountD = 0 %}
 
-{% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 {% for day in days %}
 
-# {{ day }}
+## {{ day }}
 
 <table>
 	{% assign data_file = day | append: "_program" %}
@@ -43,10 +52,10 @@ permalink: /program/
 			{% assign talkCountP = talkCountP | plus: 1 %}
 		{% when "Invited" %}
 			{% include speakerRow.html time=item.Time
-									   numA=talkCountA speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA affiliationA=item.AffiliationA roomA=item.RoomA
-									   numB=talkCountB speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB affiliationB=item.AffiliationB roomB=item.RoomA
-									   numC=talkCountC speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC affiliationC=item.AffiliationC roomC=item.RoomA
-									   numD=talkCountD speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD affiliationD=item.AffiliationD roomD=item.RoomA %}
+									numA=talkCountA speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA affiliationA=item.AffiliationA roomA=item.RoomA
+									numB=talkCountB speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB affiliationB=item.AffiliationB roomB=item.RoomA
+									numC=talkCountC speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC affiliationC=item.AffiliationC roomC=item.RoomA
+									numD=talkCountD speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD affiliationD=item.AffiliationD roomD=item.RoomA %}
 			
 			{% assign talkCountA = talkCountA | plus: 1 %}
 			{% assign talkCountB = talkCountB | plus: 1 %}
@@ -62,7 +71,6 @@ permalink: /program/
 	</tr>
 	{% endfor %}
 </table>
-
 {% endfor %}
 
 {% include talkInfoJS.html %}
