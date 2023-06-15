@@ -4,11 +4,27 @@ title: Program
 permalink: /program/
 ---
 
-Quicklinks:
+{% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 
-<a href="#monday">[Monday]</a> - <a href="#tuesday">[Tuesday]</a> - <a href="#wednesday">[Wednesday]</a> - <a href="#thursday">[Thursday]</a>
+<div style="display:flex;flex-wrap:wrap">
+	<div style="flex: 1 0">
+		<h2>Quicklinks:</h2>
 
-[\[Poster Session Program\]]({{ "/posters/" | relative_url }})
+		<div class="program-menu">
+			{% for day in days %}
+			<a class="menu-item program-menu-item" href="#{{ day | downcase }}"><div class="menu-item program-menu-item">{{ day }}</div></a>
+			{% endfor %}
+			<a class="menu-item program-menu-item" href="{{ '/posters/' | relative_url }}"><div class="menu-item program-menu-item">Poster Session Program</div></a>
+		</div>
+	</div>
+	<div style="flex: 0 0 400px">
+		<h2>Latest Updates:</h2>
+
+		<div class="twitter-feed">
+			<a class="twitter-timeline" data-height="300px" href="https://twitter.com/2D_TMDs_2023?ref_src=twsrc%5Etfw">Tweets by 2D_TMDs_2023</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+		</div>
+	</div>
+</div>
 
 {% assign talkCountP = 0 %}
 {% assign talkCountA = 0 %}
@@ -16,10 +32,9 @@ Quicklinks:
 {% assign talkCountC = 0 %}
 {% assign talkCountD = 0 %}
 
-{% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 {% for day in days %}
 
-# {{ day }}
+## {{ day }}
 
 <table>
 	{% assign data_file = day | append: "_program" %}
@@ -56,7 +71,6 @@ Quicklinks:
 	</tr>
 	{% endfor %}
 </table>
-
 {% endfor %}
 
 {% include talkInfoJS.html %}
