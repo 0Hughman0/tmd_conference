@@ -38,9 +38,9 @@ Quicklinks:
 		{% when "Invited" %}
 			{% include speakerRow.html time=item.Time
 									   numA=talkCountA speakerA=item.SpeakerA titleA=item.TitleA abstractA=item.AbstractA affiliationA=item.AffiliationA roomA=item.RoomA
-									   numB=talkCountB speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB affiliationB=item.AffiliationB roomB=item.RoomA
-									   numC=talkCountC speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC affiliationC=item.AffiliationC roomC=item.RoomA
-									   numD=talkCountD speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD affiliationD=item.AffiliationD roomD=item.RoomA %}
+									   numB=talkCountB speakerB=item.SpeakerB titleB=item.TitleB abstractB=item.AbstractB affiliationB=item.AffiliationB roomB=item.RoomB
+									   numC=talkCountC speakerC=item.SpeakerC titleC=item.TitleC abstractC=item.AbstractC affiliationC=item.AffiliationC roomC=item.RoomC
+									   numD=talkCountD speakerD=item.SpeakerD titleD=item.TitleD abstractD=item.AbstractD affiliationD=item.AffiliationD roomD=item.RoomD %}
 			
 			{% assign talkCountA = talkCountA | plus: 1 %}
 			{% assign talkCountB = talkCountB | plus: 1 %}
