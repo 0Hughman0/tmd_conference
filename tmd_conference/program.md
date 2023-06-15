@@ -4,11 +4,17 @@ title: Program
 permalink: /program/
 ---
 
-Quicklinks:
+## Quicklinks:
 
 <a href="#monday">[Monday]</a> - <a href="#tuesday">[Tuesday]</a> - <a href="#wednesday">[Wednesday]</a> - <a href="#thursday">[Thursday]</a>
 
 [\[Poster Session Program\]]({{ "/posters/" | relative_url }})
+
+## Latest Updates:
+
+<div class="twitter-feed" style="max-width:30%;max-height:500px">
+	<a class="twitter-timeline" href="https://twitter.com/2D_TMDs_2023?ref_src=twsrc%5Etfw">Tweets by 2D_TMDs_2023</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div>
 
 {% assign talkCountP = 0 %}
 {% assign talkCountA = 0 %}
