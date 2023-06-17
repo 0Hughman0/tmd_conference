@@ -66,9 +66,14 @@ permalink: /program/
 			{% assign talkCountC = talkCountC | plus: 1 %}
 			{% assign talkCountD = talkCountD | plus: 1 %}
 
+		{% when "Chairs" %}
+			{% include chairsRow.html speakerA=item.SpeakerA affiliationA=item.AffiliationA
+									   speakerB=item.SpeakerB affiliationB=item.AffiliationB
+									   speakerC=item.SpeakerC affiliationC=item.AffiliationC
+									   speakerD=item.SpeakerD affiliationD=item.AffiliationD %}
+
 		{% when "Poster Session" %}
 			{% include posterRow.html %}
-
 		{% else %}
 			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA %}
 	{% endcase %}
