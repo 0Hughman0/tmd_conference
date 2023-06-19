@@ -15,6 +15,7 @@ Please use [the form below](#abstract-submission-MS-form) to submit invited talk
 Posters should highlight and summarise the main findings of your research. 
 
 * The maximum poster size is **A0**: 84.1 cm x 118.9 cm. (33.1 inches x 46.8 inches). 
+* Posters should be made in a portrait page orientation, i.e. shortest edge along the top/ bottom.
 * The paper title and all authors should be presented at the top of the poster.
 * There is no set format, however, typically posters include a brief introduction, experimental results, conclusions, and references. 
 * Please use easily read fonts and avoid pairing red and green elements to assist those with red-green colour blindness.  
