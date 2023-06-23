@@ -6,7 +6,6 @@ permalink: /venue/
 
 The conference will be held in <a href="https://conferences.chu.cam.ac.uk/">Churchill College, University of Cambridge</a>.
 
-
 <div class="entries-grid">
 
 <article class="entry">
@@ -32,7 +31,11 @@ The conference will be held in <a href="https://conferences.chu.cam.ac.uk/">Chur
 
 </div>
 
+## Wi-Fi Details
 
+Delegates can make use of the University of Cambridge Guest Wi-Fi Network.
+
+Details for logging can be found [here](https://help.uis.cam.ac.uk/service/wifi/connect-to-uniofcam-guest).
 
 ## Travelling by Public Transport
 
