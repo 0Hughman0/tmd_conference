@@ -14,7 +14,7 @@
 	<div style="display:none" class="talk-info" id="{{ id }}">
 		<div style="position:absolute;right:5px;text-align:right">
 			<b>{{ include.room }}, {{ include.time }}</b>
-			<button onclick="hideTalkInfo('{{ id }}')" style="cursor:pointer">✖</button>
+			<button onclick="toggleTalkHighlighted('{{ id }}')" style="cursor:pointer;margin-right:2px">📝</button><button onclick="hideTalkInfo('{{ id }}')" style="cursor:pointer">✖</button>
 			<div style="cursor:pointer">
 				<a onclick="showTalkInfo('{{ prev_id }}')">&lt; View Prev</a> | <a onclick="showTalkInfo('{{ next_id }}')">View Next &gt;</a>
 			</div>
