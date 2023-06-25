@@ -22,6 +22,7 @@
     function hideAll() {
         for (const el of displayed) {
             el.style.display = "none";
+            history.replaceState(null, null, ' ');
         }
         displayed.clear();
     }
