@@ -9,11 +9,11 @@
     var highlighted = new Set();
 
     function buildCookie() {
-        window.localStorage.setItem("highlighted", JSON.stringify(Array.from(highlighted)));
+        window.localStorage.setItem("highlighted" + window.location.pathname, JSON.stringify(Array.from(highlighted)));
     }
     
     function parseCookie() {
-        return JSON.parse(localStorage.getItem("highlighted"));
+        return JSON.parse(localStorage.getItem("highlighted"  + window.location.pathname));
     }
 
     function onLoad() {
