@@ -5,8 +5,8 @@ name: Build Program CSVs and Deploy to Demo
 # Controls when the workflow will run
 on:
 
-  schedule:
-    - cron: '0 * * * *'
+  # schedule:  # conserve my actions quota!
+  #   - cron: '0 * * * *'
 
   push:
     branches: [ "demo" ]
