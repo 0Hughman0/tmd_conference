@@ -59,8 +59,10 @@ jobs:
           working-directory: tmd_conference
 
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "www.2dtmds2025.com" -s tmd_conference -d "../dcuenvoieuriewud2dhfhf"
+        run: |
+          cd tmd_conference
+          bundle exec jekyll build --baseurl "www.2dtmds2025.com" -s tmd_conference -d "../dcuenvoieuriewud2dhfhf"
+          cd ..
         env:
           JEKYLL_ENV: production
 
