@@ -61,7 +61,7 @@ jobs:
       - name: Build with Jekyll
         run: |
           cd tmd_conference
-          bundle exec jekyll build --baseurl "www.2dtmds2025.com/dcuenvoieuriewud2dhfhf" -d "../dcuenvoieuriewud2dhfhf"
+          bundle exec jekyll build --baseurl "dcuenvoieuriewud2dhfhf" -d "../dcuenvoieuriewud2dhfhf"
           cd ..
         env:
           JEKYLL_ENV: production
