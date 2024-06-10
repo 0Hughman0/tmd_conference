@@ -62,6 +62,18 @@ To be confirmed.
 {% endfor %}
 </div>
 
+## Co-organizers
+<div class="speaker-box">
+{% for pair in site.data.co-organizers %}
+
+	<article class="portrait">
+		<img src="{{ '/assets/co-organizers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
+        <b>{{ pair["Name"] }}</b>
+        <em>{{ pair["Institute"] }}</em>
+	</article>
+{% endfor %}
+</div>
+
 ## Sponsors
 
 {% assign sponsors = "Aixtron.svg;attocube.jpg;HeidelbergInstruments.png;HenryRoyceInstitute.png;OxfordInstruments.png;Royal Society of Chemistry.png" | split: ";"  %}
