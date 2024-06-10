@@ -33,10 +33,12 @@ introduction: |
 </div>
 
 
-## Confirmed Plenary Speakers (To be confirmed)
+## Plenary Speakers 
 
-<div class="speaker-box">
-{% for pair in site.data.plenaries %}
+To be confirmed
+
+ <!-- <div class="speaker-box">
+{% for pair in site.data.plenaries %} -->
 
 	<article class="portrait">
 		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
