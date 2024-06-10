@@ -33,7 +33,7 @@ introduction: |
 </div>
 
 
-## Confirmed Plenary Speakers
+## Confirmed Plenary Speakers (To be confirmed)
 
 <div class="speaker-box">
 {% for pair in site.data.plenaries %}
