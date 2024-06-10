@@ -35,10 +35,10 @@ introduction: |
 
 ## Plenary Speakers 
 
-To be confirmed
+To be confirmed.
 
  <!-- <div class="speaker-box">
-{% for pair in site.data.plenaries %} -->
+{% for pair in site.data.plenaries %}
 
 	<article class="portrait">
 		<img src="{{ '/assets/Plenary Speakers/' | relative_url }}{{ pair['Name'] }}.jpg" class="portrait">
@@ -47,7 +47,7 @@ To be confirmed
 	</article>
 {% endfor %}
 </div>
-
+-->
 
 ## Organizers
 <div class="speaker-box">
@@ -63,9 +63,9 @@ To be confirmed
 
 ## Sponsors
 
-{% assign sponsors = "HenryRoyceInstitute.png" | split: ";"  %}
+{% assign sponsors = "Aixtron.svg;attocube.jpg;HeidelbergInstruments.png;HenryRoyceInstitute.png;OxfordInstruments.png;Royal Society of Chemistry.png" | split: ";"  %}
 
-<!-- {% assign sponsors = "Aixtron.svg;attocube.jpg;HeidelbergInstruments.png;HenryRoyceInstitute.png;OxfordInstruments.png;Royal Society of Chemistry.png" | split: ";"  %} -->
+{% assign sponsors = "HenryRoyceInstitute.png" | split: ";"  %}
 
 
 <div class="tmd-sponsors">
