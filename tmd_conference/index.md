@@ -37,7 +37,8 @@ introduction: |
 
 To be confirmed.
 
- <!-- <div class="speaker-box">
+{% comment %}
+<div class="speaker-box">
 {% for pair in site.data.plenaries %}
 
 	<article class="portrait">
@@ -47,7 +48,7 @@ To be confirmed.
 	</article>
 {% endfor %}
 </div>
--->
+{% endcomment %}
 
 ## Organizers
 <div class="speaker-box">
