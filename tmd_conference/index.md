@@ -7,9 +7,11 @@ title: 2D Transition Metal Dichalcogenides 2025
 sub_title: July 20 - 24, 2025 | Churchill College, Cambridge, UK
 image: /assets/top_banner.jpg
 introduction: |
-  Following successful 2D TMDs conferences in Cambridge and Hong Kong, we will be holding the 2D TMDs 2025 conference in Cambridge again. The conference will again gather leading researchers from academia and industry to present and discuss cutting-edge research in the field of atomically thin TMDs and related materials. The conference will cover latest developments in synthesis of 2D TMDs and their implementation in electronics, photonics, catalysis, as well as energy conversion and storage. <b>Abstracts from students and postdoctoral researchers are very welcome.</b> Topics will include but not limited to:
+  Following successful 2D TMDs conferences in Cambridge and Hong Kong, we will be holding the 2D TMDs 2025 conference in Cambridge again. The conference will again gather leading researchers from academia and industry to present and discuss cutting-edge research in the field of atomically thin TMDs and related materials. The conference will cover latest developments in synthesis of 2D TMDs and their implementation in electronics, photonics, catalysis, as well as energy conversion and storage. <b>Abstracts from students and postdoctoral researchers are very welcome.</b>
 ---
 ## Topics
+
+Topics will include but are not limited to:
 
 <div class="topics-grid">
 	<div>
