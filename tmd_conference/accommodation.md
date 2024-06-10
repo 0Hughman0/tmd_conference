@@ -7,7 +7,8 @@ permalink: /accommodation/
 
 ## Rooms at Churchill College
 
-Churchill College is now FULL and not able to offer any more availability for the week of our conference.
+To be confirmed.
+<!--Churchill College is now FULL and not able to offer any more availability for the week of our conference.-->
 
 <!--
 Rooms within Churchill College are available for participants of 2D TMDs 2023. **Please note, there is no more room availability for the night of the 25th of June.**
