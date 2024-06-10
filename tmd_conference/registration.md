@@ -37,10 +37,10 @@ Conference Fees
 -   Monday, July 21st -- Thursday, July 24th: Sit down lunch in Churchill
     College Dining Hall
 
--   Monday, July 21st -- Tuesday, July 22nd: Sit down dinner in Churchill
-    College Dining Hall
+-   Monday, July 21st: Gala dinner for all attendees in King's College
 
--   Wednesday, July 23rd: Gala dinner for all attendees
+-   Tuesday, July 22nd - Wednesday July 23rd : Sit down dinner in Churchill
+    College Dining Hall
 
 **In case of any problems with online payment, on-site payment will be
 available.**
