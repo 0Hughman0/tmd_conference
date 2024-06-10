@@ -14,7 +14,7 @@ introduction: |
 <div class="topics-grid">
 	<div>
 	  <ul>
-		{% for topic in site.data.topics limit:5 %}
+		{% for topic in site.data.topics limit:4 %}
 		<li>
 			{{ topic['name'] }}
 		</li>
@@ -23,7 +23,7 @@ introduction: |
 	</div>
 	<div>
 	<ul>
-		{% for topic in site.data.topics offset:5 %}
+		{% for topic in site.data.topics offset:4 %}
 		<li>
 			{{ topic['name'] }}
 		</li>
