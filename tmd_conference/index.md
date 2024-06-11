@@ -37,7 +37,6 @@ Topics will include but are not limited to:
 
 ## Confirmed Plenary Speakers 
 
-{% comment %}
 <div class="speaker-box">
 {% for pair in site.data.plenaries %}
 
