@@ -35,9 +35,7 @@ Topics will include but are not limited to:
 </div>
 
 
-## Plenary Speakers 
-
-To be confirmed.
+## Confirmed Plenary Speakers 
 
 {% comment %}
 <div class="speaker-box">
@@ -50,7 +48,6 @@ To be confirmed.
 	</article>
 {% endfor %}
 </div>
-{% endcomment %}
 
 ## Organizers
 <div class="speaker-box">
