@@ -56,7 +56,7 @@ jobs:
       - name: Build with Jekyll
         run: |
           cd tmd_conference
-          bundle exec jekyll build -d "../site"
+          bundle exec jekyll build -d "../site" --baseurl=/
           cd ..
         env:
           JEKYLL_ENV: production
