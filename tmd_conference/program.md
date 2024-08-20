@@ -6,8 +6,6 @@ permalink: /program/
 
 To be confirmed.
 
-{% comment %}
-
 {% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 
 <div style="display:flex;flex-wrap:wrap">
@@ -87,5 +85,3 @@ To be confirmed.
 {% endfor %}
 
 {% include talkInfoJS.html %}
-
-{% endcomment %}
