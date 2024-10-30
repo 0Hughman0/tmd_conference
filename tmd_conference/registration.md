@@ -16,7 +16,7 @@ Registration will be opened in the near future.
 Conference Fees
 ---------------
 
-### Early Bird Registration (Before April 30, 2025)
+### Early Bird Registration (Before February 28, 2025)
 
 
 | Position            | Fee                             |
@@ -24,7 +24,7 @@ Conference Fees
 | Academics & PDRAs   | TBC |
 | Students            | TBC |
 
-### Late Registration (After April 30, 2025)
+### Late Registration (After February 28, 2025)
 
   |Position           | Fee                             |
   |-------------------| --------------------------------|
