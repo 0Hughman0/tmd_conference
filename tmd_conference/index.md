@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: 2D Transition Metal Dichalcogenides (TMDs) 2025 
+title: 2D Transition Metal Dichalcogenides 2025 (2D TMDs 2025)
 sub_title: July 20 - 24, 2025 | Churchill College, Cambridge, UK
 image: /assets/top_banner.jpg
 introduction: |
