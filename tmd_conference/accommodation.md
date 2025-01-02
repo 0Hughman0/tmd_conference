@@ -11,11 +11,11 @@ To be confirmed.
 <!--Churchill College is now FULL and not able to offer any more availability for the week of our conference.-->
 
 
-Rooms within Churchill College are available for participants of 2D TMDs 2025.
+Rooms within Churchill College are available for participants of 2D TMDs 2025. Click here to be redirected to Churchill College accommodation: 
 
-**[Click here to be redirected to Churchill College's booking page]((https://www.speedybooker.com/en-GB/group/default.aspx?g=churchill&brand=wl&partnerid=106&lang=en))** - *The event code **KX52781** must be used during your reservation to ensure room availability.*
+<a href="https://www.speedybooker.com/en-GB/group/default.aspx?g=churchill&brand=wl&partnerid=106&lang=en"> Cambridge - Churchill College </a> *The event code **KX52781** must be used during your reservation to ensure room availability.*
 
-<a href="https://www.speedybooker.com/en-GB/group/default.aspx?g=churchill&brand=wl&partnerid=106&lang=en"> Cambridge - Churchill College </a>
+<!-- **[Click here to be redirected to Churchill College's booking page]((https://www.speedybooker.com/en-GB/group/default.aspx?g=churchill&brand=wl&partnerid=106&lang=en))** --> 
 
 If you are considering bringing children to attend the conference, please contact Ms Ana Talaban-Bailey by email (ajt69@cam.ac.uk), as this will require a separate booking process. Cases will be considered by Churchill College on an individual basis.
 
