@@ -7,13 +7,14 @@ permalink: /accommodation/
 
 ## Rooms at Churchill College
 
-To be confirmed.
-<!--Churchill College is now FULL and not able to offer any more availability for the week of our conference.-->
+<!--To be confirmed.
+Churchill College is now FULL and not able to offer any more availability for the week of our conference.-->
 
-<!--
-Rooms within Churchill College are available for participants of 2D TMDs 2023. **Please note, there is no more room availability for the night of the 25th of June.**
+Rooms within Churchill College are available for participants of 2D TMDs 2025 and can be booked via the following link: <a href="https://www.speedybooker.com/en-GB/group/default.aspx?g=churchill&brand=wl&partnerid=106&lang=en"> Churchill College Accommodation</a>.
 
-**[Click here to be redirected to Churchill College's booking page](https://conferences.chu.cam.ac.uk/bandb/)** - *The event code **KX52781** must be used during your reservation to ensure room availability.*
+<!-- *The event code **KX52781** must be used during your reservation to ensure room availability.*
+
+ **[Click here to be redirected to Churchill College's booking page]((https://www.speedybooker.com/en-GB/group/default.aspx?g=churchill&brand=wl&partnerid=106&lang=en))** 
 
 If you are considering bringing children to attend the conference, please contact Ms Ana Talaban-Bailey by email (ajt69@cam.ac.uk), as this will require a separate booking process. Cases will be considered by Churchill College on an individual basis.
 
@@ -61,16 +62,13 @@ The room types available are:
     <img src="{{ '/assets/accommodation/cowan_court_2.png' | relative_url }}" height="400" width="400">
     <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Sleeps 2 people</li>
 </em>
-</article>
-
-
-</div>
-
+</article> 
+</div> -->
 
 <br>
 <br>
 
--->
+
 
 ## Hotels
 Hotels and guest rooms can also be booked in Cambridge city center, located 20 - 30 minutes by walk or ~ 10 mins by bike. Some options around Cambridge are:
