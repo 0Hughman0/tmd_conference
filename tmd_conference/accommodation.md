@@ -62,11 +62,8 @@ The room types available are:
     <img src="{{ '/assets/accommodation/cowan_court_2.png' | relative_url }}" height="400" width="400">
     <em><li>Breakfast included</li> <li>Private bathroom</li> <li>Internet Wi-Fi</li> <li>Linen and towels provided</li> <li>Sleeps 2 people</li>
 </em>
-</article> --> 
-
-
-</div>
-
+</article> 
+</div> -->
 
 <br>
 <br>
