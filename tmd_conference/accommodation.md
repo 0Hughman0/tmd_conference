@@ -10,7 +10,7 @@ permalink: /accommodation/
 To be confirmed.
 <!--Churchill College is now FULL and not able to offer any more availability for the week of our conference.-->
 
-Rooms within Churchill College are available for participants of 2D TMDs 2025 and can be booked via the following link: <a href="https://www.speedybooker.com/en-GB/group/default.aspx?g=churchill&brand=wl&partnerid=106&lang=en"> Churchill College Accommodation </a>.
+Rooms within Churchill College are available for participants of 2D TMDs 2025 and can be booked via the following link: <a href="https://www.speedybooker.com/en-GB/group/default.aspx?g=churchill&brand=wl&partnerid=106&lang=en"> Churchill College Accommodation</a>.
 
 <!-- *The event code **KX52781** must be used during your reservation to ensure room availability.*
 
