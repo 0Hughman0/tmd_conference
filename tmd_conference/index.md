@@ -76,7 +76,7 @@ Topics will include but are not limited to:
 
 {% assign sponsors = "Aixtron.svg;attocube.jpg;HeidelbergInstruments.png;HenryRoyceInstitute.png;OxfordInstruments.png;Royal Society of Chemistry.png" | split: ";"  %}
 
-{% assign sponsors = "HenryRoyceInstitute.png" | split: ";"  %}
+{% assign sponsors = "HenryRoyceInstitute.png;weboftalents.png" | split: ";"  %}
 
 
 <div class="tmd-sponsors">
