@@ -7,10 +7,15 @@ Abstract submission is open until the 15th of April 2025.
 
 **We strongly encourage participation and welcome abstract submissions from students and postdoctoral researchers for poster presentations.**
 
-Please use [the form below](#abstract-submission-MS-form) to submit invited talk or poster abstracts.
+## Abstract Submission Form
+
+#### Note for invited speakers
+
+Please submit your abstracts to [this link](https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?usp=sf_link). 
+
+If you are unable to do so for any reason, you may also send your abstract, along with all relevant information (title, co-authors, affiliations and keywords) to [2dtmds2025@msm.cam.ac.uk](mailto://2dtmds2025@msm.cam.ac.uk), using the subject "Speaker Abstract Submission". Our apologies for any inconvenience caused.
 
 ## Poster Guidelines
-
  
 Posters should highlight and summarise the main findings of your research. 
 
@@ -31,7 +36,7 @@ Web Of Talents (https://weboftalents.com) is an online platform that gives maxim
 The first winner will receive 1,000 USD plus one commemorative plaque.
 The second winner will receive 500 USD plus one commemorative plaque.
 The third winner will receive 250 USD plus one commemorative plaque.
- 
+
 #### Evaluation criteria:
 The posters will be graded by anonymous evaluators who will be present at the conference site during the posters sessions. The poster hanged should clearly present the problem that you are trying to solve, the state-of-the-art methods used by others to trying to solve it, the approach that you have used to solve it and why it is suitable, the methodology and protocols followed, and the conclusions extracted. If any of these points cannot be covered in the poster due to space limitations, it is expected that the presenter is able to articulate good answers when asked by the evaluators. It is particularly important that you showcase your technical skills, emphasizing which experiments you can do and which machines and/or software you can use, and which contributions were made by other co-authors. The committee will evaluate the depth of the technical content, the clarity of explanations (including format of the slides), and communication skills in English. The work done by others must be clearly indicated and cited. Presentations must be objective and claims of potential applications must be realistic; making unreasonable hype will be seen negatively by the committee.
  
@@ -43,12 +48,4 @@ Registering in Web of Talents (https://weboftalents.com) is free. It has three t
  
 Candidates having a profile in Web Of Talents benefit from maximum visibility among their research community. Top candidates stand out very easily thanks to our unique filtering, ranking and video features. Professors and team leaders can benefit from access to a long list of top candidates looking for a position, and detect who are the best with a couple of clicks. The platform is available in Desktop and Laptops (still not in smartphones). For technical issues related to the platform please send an email to info@weboftalents.com. Web Of Talents has been created by scientists to help other scientists. Register today and start to enjoy its benefits for free!
 
-## Abstract Submission Form
-
-#### Note for invited speakers
-
-If you are having issues using the embedded form below, please try using [this direct link](https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?usp=sf_link) instead. 
-
-If the problem persists, please send your abstract, along with all relevant information (title, co-authors, affiliations and keywords) to [2dtmds2025@msm.cam.ac.uk](mailto://2dtmds2025@msm.cam.ac.uk), using the subject "Speaker Abstract Submission". Our apologies for any inconvenience caused.
-
-<center><iframe width="1000px" height="7000px" src="https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?embedded=true" frameborder="100" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:370vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen id="abstract-submission-MS-form"> </iframe></center>
+<!--<center><iframe width="1000px" height="7000px" src="https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?embedded=true" frameborder="100" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:370vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen id="abstract-submission-MS-form"> </iframe></center>-->
