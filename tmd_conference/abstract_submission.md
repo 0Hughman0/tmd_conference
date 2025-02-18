@@ -3,17 +3,15 @@ layout: page
 title: Abstract Submission
 permalink: /abstract_submission/
 ---
-Abstract submission is open until the 15th of April 2025.
-
-**We strongly encourage participation and welcome abstract submissions from students and postdoctoral researchers for poster presentations.**
-
 ## Abstract Submission Form
-
-#### Note for invited speakers
 
 Please submit your abstracts to [this link](https://docs.google.com/forms/d/e/1FAIpQLSc75xVe_6g7dRchFeEB5hkJYwTLmlpnvHKhpveOyulFn41F7w/viewform?usp=sf_link). 
 
 If you are unable to do so for any reason, you may also send your abstract, along with all relevant information (title, co-authors, affiliations and keywords) to [2dtmds2025@msm.cam.ac.uk](mailto://2dtmds2025@msm.cam.ac.uk), using the subject "Speaker Abstract Submission". Our apologies for any inconvenience caused.
+
+Abstract submission is open until the 15th of April 2025.
+
+
 
 ## Poster Guidelines
  
@@ -28,13 +26,17 @@ Posters should highlight and summarise the main findings of your research.
  
 **All presenters must print and bring their posters with them. There will be no poster printing facilities available on site.**
 
+
+
 ## Poster Award
 
 Web Of Talents (https://weboftalents.com) is an online platform that gives maximum visibility to talented researchers working in the fields of science, technology, engineering and mathematics (STEM), and it facilitates recruitment tasks to professors and team leaders looking for students and postdocs. This award recognizes the best poster presentations at the 2D TMDs 2025 conference.
  
 #### Prize:
 The first winner will receive 1,000 USD plus one commemorative plaque.
+
 The second winner will receive 500 USD plus one commemorative plaque.
+
 The third winner will receive 250 USD plus one commemorative plaque.
 
 #### Evaluation criteria:
