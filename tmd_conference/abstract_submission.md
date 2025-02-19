@@ -11,7 +11,7 @@ If you are unable to do so for any reason, you may also send your abstract, alon
 
 Abstract submission is open until the 15th of April 2025.
 
-
+---
 
 ## Poster Guidelines
  
