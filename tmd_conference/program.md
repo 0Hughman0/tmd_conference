@@ -3,19 +3,29 @@ layout: page
 title: Program
 permalink: /program/
 ---
-
-<article class="entry">
-    <img src="{{ '/assets/Program Pictures/20th July.png' | relative_url  }}" height="400" width="400">
-</article>
-
 <article class="entry">
     <img src="{{ '/assets/hotels/20th July.png' | relative_url  }}" height="400" width="400">
 </article>
 
 <article class="entry">
-    <img src="{{ '/assets/hotels/hilton.jpg' | relative_url  }}" height="400" width="400">
+    <img src="{{ '/assets/hotels/21st July first.png' | relative_url  }}" height="400" width="400">
 </article>
 
+<article class="entry">
+    <img src="{{ '/assets/hotels/21st July first.png' | relative_url  }}" >
+</article>
+
+<article class="entry">
+    <img src="{{ '/assets/hotels/21st July first.png' | relative_url  }}" height="400" width="1200">
+</article>
+
+<article class="entry">
+    <img src="{{ '/assets/hotels/21st July first.png' | relative_url  }}" height="1200" width="400">
+</article>
+
+<article class="entry">
+    <img src="{{ '/assets/hotels/21st July first.png' | relative_url  }}" height="1200" width="1200">
+</article>
 
 {% comment %}
 
