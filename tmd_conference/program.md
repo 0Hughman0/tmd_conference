@@ -4,7 +4,7 @@ title: Program
 permalink: /program/
 ---
 
-To be confirmed.
+To be confirmed
 
 {% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 
