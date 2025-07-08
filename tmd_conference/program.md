@@ -9,6 +9,10 @@ permalink: /program/
 </article>
 
 <article class="entry">
+    <img src="{{ '/assets/hotels/20th July.png' | relative_url  }}" height="400" width="400">
+</article>
+
+<article class="entry">
     <img src="{{ '/assets/hotels/hilton.jpg' | relative_url  }}" height="400" width="400">
 </article>
 
