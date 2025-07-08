@@ -4,7 +4,18 @@ title: Program
 permalink: /program/
 ---
 
-To be confirmed
+<article class="entry">
+    <img src="{{ '/assets/Program Pictures/20th July.png' | relative_url  }}" height="400" width="400">
+</article>
+
+<article class="entry">
+    <img src="{{ '/assets/hotels/hilton.jpg' | relative_url  }}" height="400" width="400">
+</article>
+
+
+{% comment %}
+
+To be confirmed.
 
 {% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 
@@ -85,3 +96,5 @@ To be confirmed
 {% endfor %}
 
 {% include talkInfoJS.html %}
+
+{% endcomment %}
