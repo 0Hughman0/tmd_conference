@@ -3,10 +3,45 @@ layout: page
 title: Program
 permalink: /program/
 ---
+<article class="entry" style="text-align: center;">
+    <img src="{{ '/assets/hotels/20th July.png' | relative_url  }}">
+</article>
 
-To be confirmed.
+<article class="entry" style="text-align: center;">
+    <img src="{{ '/assets/hotels/21st July first.png' | relative_url  }}">
+</article>
+
+<article class="entry" style="text-align: center;">
+    <img src="{{ '/assets/hotels/21st July second.png' | relative_url  }}">
+</article>
+
+<article class="entry" style="text-align: center;">
+    <img src="{{ '/assets/hotels/22nd July first.png' | relative_url  }}">
+</article>
+
+<article class="entry" style="text-align: center;">
+    <img src="{{ '/assets/hotels/22nd July second.png' | relative_url  }}">
+</article>
+
+<article class="entry" style="text-align: center;">
+    <img src="{{ '/assets/hotels/23rd July first.png' | relative_url  }}">
+</article>
+
+<article class="entry" style="text-align: center;">
+    <img src="{{ '/assets/hotels/23rd July second.png' | relative_url  }}">
+</article>
+
+<article class="entry" style="text-align: center;">
+    <img src="{{ '/assets/hotels/24th July first.png' | relative_url  }}">
+</article>
+
+<article class="entry" style="text-align: center;">
+    <img src="{{ '/assets/hotels/24th July second.png' | relative_url  }}">
+</article>
 
 {% comment %}
+
+To be confirmed.
 
 {% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 
