@@ -103,8 +103,8 @@ To be confirmed.
 			{% include roomRow.html roomA=item.RoomA roomB=item.RoomB roomC=item.RoomC roomD=item.RoomD %}
 		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
 			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA %}
-		{% when "Plenary", "Editoral Session" %}
-			{% include pleanaryRow.html num=talkCountP time=day_time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA affiliation=item.AffiliationA %}
+		{% when "Plenary", "Editorial Session" %}
+			{% include plenaryRow.html num=talkCountP time=day_time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA affiliation=item.AffiliationA %}
 			{% assign talkCountP = talkCountP | plus: 1 %}
 		{% when "Invited" %}
 			{% include speakerRow.html time=day_time
