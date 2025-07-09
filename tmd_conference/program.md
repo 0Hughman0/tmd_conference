@@ -61,7 +61,10 @@ To be confirmed.
 
 		<div class="program-menu">
 			{% for day in days %}
-			<a class="menu-item program-menu-item" href="#{{ day | downcase }}"><div class="menu-item program-menu-item">{{ day }}</div></a>
+			{% assign full_day = day_map | split: ";" | where: "contains", day | first | split: ":" | last %}
+			<a class="menu-item program-menu-item" href="#{{ day | downcase }}">
+				<div class="menu-item program-menu-item">{{ full_day }}</div>
+			</a>
 			{% endfor %}
 			<a class="menu-item program-menu-item" href="{{ '/posters/' | relative_url }}"><div class="menu-item program-menu-item">Poster Session Program</div></a>
 		</div>
