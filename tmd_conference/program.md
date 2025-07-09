@@ -46,14 +46,8 @@ To be confirmed.
 
 {% endcomment %}
 
-{% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
-{% assign day_dates = "Sunday (20th July);Monday (21st July);Tuesday (22nd July);Wednesday (23rd July);Thursday (24th July)" | split: ";" %}
 
-<!-- Map the days to their full date strings -->
-{% assign day_map = "" %}
-{% for i in (0..days.size-1) %}
-  {% assign day_map = day_map | append: days[i] | append: ":" | append: day_dates[i] | append: ";" %}
-{% endfor %}
+{% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 
 <div style="display:flex;flex-wrap:wrap">
 	<div style="flex: 1 0">
@@ -61,10 +55,7 @@ To be confirmed.
 
 		<div class="program-menu">
 			{% for day in days %}
-			{% assign full_day = day_map | split: ";" | where: "contains", day | first | split: ":" | last %}
-			<a class="menu-item program-menu-item" href="#{{ day | downcase }}">
-				<div class="menu-item program-menu-item">{{ full_day }}</div>
-			</a>
+			<a class="menu-item program-menu-item" href="#{{ day | downcase }}"><div class="menu-item program-menu-item">{{ day }}</div></a>
 			{% endfor %}
 			<a class="menu-item program-menu-item" href="{{ '/posters/' | relative_url }}"><div class="menu-item program-menu-item">Poster Session Program</div></a>
 		</div>
@@ -103,8 +94,8 @@ To be confirmed.
 			{% include roomRow.html roomA=item.RoomA roomB=item.RoomB roomC=item.RoomC roomD=item.RoomD %}
 		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
 			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA %}
-		{% when "Plenary", "Editorial Session" %}
-			{% include plenaryRow.html num=talkCountP time=day_time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA affiliation=item.AffiliationA %}
+		{% when "Plenary", "Editoral Session" %}
+			{% include pleanaryRow.html num=talkCountP time=day_time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA affiliation=item.AffiliationA %}
 			{% assign talkCountP = talkCountP | plus: 1 %}
 		{% when "Invited" %}
 			{% include speakerRow.html time=day_time
