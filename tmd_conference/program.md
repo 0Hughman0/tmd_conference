@@ -46,7 +46,7 @@ To be confirmed.
 
 {% endcomment %}
 
-{% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
+{% assign days = "Sunday (20th July);Monday (21st July);Tuesday (22nd July);Wednesday (23rd July);Thursday (24th July)" | split: ";" %}
 
 <div style="display:flex;flex-wrap:wrap">
 	<div style="flex: 1 0">
@@ -63,7 +63,7 @@ To be confirmed.
 		<h2>Latest Updates:</h2>
 
 		<div class="twitter-feed">
-			<a class="twitter-timeline" data-height="300px" href="https://twitter.com/2D_TMDs_2023?ref_src=twsrc%5Etfw">Tweets by 2D_TMDs_2023</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+			<a class="twitter-timeline" data-height="300px" href="https://twitter.com/2D_TMDs_2023?ref_src=twsrc%5Etfw">Tweets by 2D_TMDs_2025</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 		</div>
 	</div>
 </div>
