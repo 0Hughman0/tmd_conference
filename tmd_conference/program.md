@@ -47,6 +47,13 @@ To be confirmed.
 {% endcomment %}
 
 {% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
+{% assign day_dates = "Sunday (20th July);Monday (21st July);Tuesday (22nd July);Wednesday (23rd July);Thursday (24th July)" | split: ";" %}
+
+<!-- Map the days to their full date strings -->
+{% assign day_map = "" %}
+{% for i in (0..days.size-1) %}
+  {% assign day_map = day_map | append: days[i] | append: ":" | append: day_dates[i] | append: ";" %}
+{% endfor %}
 
 <div style="display:flex;flex-wrap:wrap">
 	<div style="flex: 1 0">
