@@ -54,7 +54,8 @@ To be confirmed.
 
 		<div class="program-menu">
 			{% for day in days %}
-			<a class="menu-item program-menu-item" href="#{{ day | downcase }}"><div class="menu-item program-menu-item">{{ day }}</div></a>
+			{% assign day_name = day | split: " " | first %} <!-- Extract the day of the week -->
+			<a class="menu-item program-menu-item" href="#{{ day_name | downcase }}"><div class="menu-item program-menu-item">{{ day }}</div></a>
 			{% endfor %}
 			<a class="menu-item program-menu-item" href="{{ '/posters/' | relative_url }}"><div class="menu-item program-menu-item">Poster Session Program</div></a>
 		</div>
@@ -63,7 +64,7 @@ To be confirmed.
 		<h2>Latest Updates:</h2>
 
 		<div class="twitter-feed">
-			<a class="twitter-timeline" data-height="300px" href="https://twitter.com/2D_TMDs_2023?ref_src=twsrc%5Etfw">Tweets by 2D_TMDs_2025</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+			<a class="twitter-timeline" data-height="300px" href="https://x.com/2D_TMDs_2025">2D_TMDs_2025</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 		</div>
 	</div>
 </div>
@@ -79,11 +80,12 @@ To be confirmed.
 ## {{ day }}
 
 <table>
-	{% assign data_file = day | append: "_program" %}
+	{% assign day_name = day | split: " " | first %} <!-- Extract the day of the week -->
+	{% assign data_file = day_name | downcase | append: "_program" %}
 	
 	{% for item in site.data[data_file] %}
 	{% capture day_time %}
-	{{ day }}, {{ item.Time }}
+	{{ day_name }}, {{ item.Time }} <!-- Use the day_name for time reference -->
 	{% endcapture %}
 	
 	<tr class="top-aligned">
@@ -93,8 +95,8 @@ To be confirmed.
 			{% include roomRow.html roomA=item.RoomA roomB=item.RoomB roomC=item.RoomC roomD=item.RoomD %}
 		{% when "Breakfast", "Coffee", "Lunch", "Dinner", "Meal" %}
 			{% include mealRow.html text=item.Text type=item.Type room=item.RoomA %}
-		{% when "Plenary", "Editoral Session" %}
-			{% include pleanaryRow.html num=talkCountP time=day_time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA affiliation=item.AffiliationA %}
+		{% when "Plenary", "Editorial Session" %}
+			{% include plenaryRow.html num=talkCountP time=day_time room=item.RoomA text=item.Text speaker=item.SpeakerA title=item.TitleA abstract=item.AbstractA affiliation=item.AffiliationA %}
 			{% assign talkCountP = talkCountP | plus: 1 %}
 		{% when "Invited" %}
 			{% include speakerRow.html time=day_time
@@ -125,5 +127,6 @@ To be confirmed.
 {% endfor %}
 
 {% include talkInfoJS.html %}
+
 
 
