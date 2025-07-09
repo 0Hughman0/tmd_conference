@@ -55,16 +55,22 @@ To be confirmed.
 		<div class="program-menu">
 			{% for day in days %}
 			{% assign day_name = day | split: " " | first %} <!-- Extract the day of the week -->
-			<a class="menu-item program-menu-item" href="#{{ day_name | downcase }}"><div class="menu-item program-menu-item">{{ day }}</div></a>
+			{% assign day_date = day | split: "(" | last | split: ")" | first %} <!-- Extract the date part -->
+			<a class="menu-item program-menu-item" href="#{{ day_name | downcase }}">
+				<div class="menu-item program-menu-item">{{ day_name }} ({{ day_date }})</div>
+			</a>
 			{% endfor %}
-			<a class="menu-item program-menu-item" href="{{ '/posters/' | relative_url }}"><div class="menu-item program-menu-item">Poster Session Program</div></a>
+			<a class="menu-item program-menu-item" href="{{ '/posters/' | relative_url }}">
+				<div class="menu-item program-menu-item">Poster Session Program</div>
+			</a>
 		</div>
 	</div>
 	<div style="flex: 0 0 400px">
 		<h2>Latest Updates:</h2>
 
 		<div class="twitter-feed">
-			<a class="twitter-timeline" data-height="300px" href="https://x.com/2D_TMDs_2025">2D_TMDs_2025</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+			<a class="twitter-timeline" data-height="300px" href="https://x.com/2D_TMDs_2025">2D_TMDs_2025</a>
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 		</div>
 	</div>
 </div>
@@ -127,6 +133,4 @@ To be confirmed.
 {% endfor %}
 
 {% include talkInfoJS.html %}
-
-
 
