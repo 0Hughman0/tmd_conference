@@ -44,6 +44,8 @@ permalink: /program/
 
 To be confirmed.
 
+{% endcomment %}
+
 {% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 
 <div style="display:flex;flex-wrap:wrap">
@@ -65,8 +67,6 @@ To be confirmed.
 		</div>
 	</div>
 </div>
-
-{% endcomment %}
 
 {% assign talkCountP = 0 %}
 {% assign talkCountA = 0 %}
