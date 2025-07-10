@@ -3,10 +3,14 @@ layout: page
 title: Registration
 permalink: /registration/
 ---
-### Due to limited capacity, we kindly ask that only participants with an invited talk or an accepted poster presentation register for the conference from July 3rd onward.
+### Due to limited capacity, we kindly ask that only participants with an invited talk or an accepted poster presentation register for the conference. Please send an email to the conference address for instructions on how to register.
+
+{% comment %}
+
 **[Click here to be redirected to the registration payment page](https://onlinesales.admin.cam.ac.uk/conferences-and-events/materials-science-metallurgy/2d-tmds/2d-tmds-2025)**
 
-### If you would like to register last minute, please send an email to the conference address for instructions.
+{% endcomment %}
+ 
 
 ### Please be aware no refunds will be issued for cancellations after the 6th of July.
 

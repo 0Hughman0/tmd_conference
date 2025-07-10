@@ -3,6 +3,9 @@ layout: page
 title: Program
 permalink: /program/
 ---
+
+
+
 <article class="entry" style="text-align: center;">
     <img src="{{ '/assets/hotels/20th July.png' | relative_url  }}" width="1000" >
 </article>
@@ -38,10 +41,9 @@ permalink: /program/
 <article class="entry" style="text-align: center;">
     <img src="{{ '/assets/hotels/24th July second.png' | relative_url  }}" width="1000">
 </article>
-
 {% comment %}
-
 To be confirmed.
+
 
 {% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
 
@@ -60,7 +62,7 @@ To be confirmed.
 		<h2>Latest Updates:</h2>
 
 		<div class="twitter-feed">
-			<a class="twitter-timeline" data-height="300px" href="https://twitter.com/2D_TMDs_2023?ref_src=twsrc%5Etfw">Tweets by 2D_TMDs_2023</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+			<a class="twitter-timeline" data-height="300px" href="https://x.com/2D_TMDs_2025">2D_TMDs_2025</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 		</div>
 	</div>
 </div>
@@ -122,5 +124,6 @@ To be confirmed.
 {% endfor %}
 
 {% include talkInfoJS.html %}
+
 
 {% endcomment %}
