@@ -4,7 +4,7 @@ title: Program
 permalink: /program/
 ---
 
-{% comment %}
+
 
 <article class="entry" style="text-align: center;">
     <img src="{{ '/assets/hotels/20th July.png' | relative_url  }}" width="1000" >
@@ -41,10 +41,8 @@ permalink: /program/
 <article class="entry" style="text-align: center;">
     <img src="{{ '/assets/hotels/24th July second.png' | relative_url  }}" width="1000">
 </article>
-
+{% comment %}
 To be confirmed.
-
-{% endcomment %}
 
 
 {% assign days = "Sunday;Monday;Tuesday;Wednesday;Thursday" | split: ";" %}
@@ -126,3 +124,6 @@ To be confirmed.
 {% endfor %}
 
 {% include talkInfoJS.html %}
+
+
+{% endcomment %}
