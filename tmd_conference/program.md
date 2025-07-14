@@ -9,35 +9,35 @@ permalink: /program/
 </article>
 
 <article class="entry" style="text-align: center;">
-    <img src="{{ '/assets/hotels/21st July first.png' | relative_url  }}" width="1000">
+    <img src="{{ '/assets/hotels/21st July first2.png' | relative_url  }}" width="1000">
 </article>
 
 <article class="entry" style="text-align: center;">
-    <img src="{{ '/assets/hotels/21st July second.png' | relative_url  }}" width="1000">
+    <img src="{{ '/assets/hotels/21st July second2.png' | relative_url  }}" width="1000">
 </article>
 
 <article class="entry" style="text-align: center;">
-    <img src="{{ '/assets/hotels/22nd July first.png' | relative_url  }}" width="1000">
+    <img src="{{ '/assets/hotels/22nd July first2.png' | relative_url  }}" width="1000">
 </article>
 
 <article class="entry" style="text-align: center;">
-    <img src="{{ '/assets/hotels/22nd July second.png' | relative_url  }}" width="1000">
+    <img src="{{ '/assets/hotels/22nd July second2.png' | relative_url  }}" width="1000">
 </article>
 
 <article class="entry" style="text-align: center;">
-    <img src="{{ '/assets/hotels/23rd July first.png' | relative_url  }}" width="1000">
+    <img src="{{ '/assets/hotels/23rd July first2.png' | relative_url  }}" width="1000">
 </article>
 
 <article class="entry" style="text-align: center;">
-    <img src="{{ '/assets/hotels/23rd July second.png' | relative_url  }}" width="1000">
+    <img src="{{ '/assets/hotels/23rd July second2.png' | relative_url  }}" width="1000">
 </article>
 
 <article class="entry" style="text-align: center;">
-    <img src="{{ '/assets/hotels/24th July first.png' | relative_url  }}" width="1000">
+    <img src="{{ '/assets/hotels/24th July first2.png' | relative_url  }}" width="1000">
 </article>
 
 <article class="entry" style="text-align: center;">
-    <img src="{{ '/assets/hotels/24th July second.png' | relative_url  }}" width="1000">
+    <img src="{{ '/assets/hotels/24th July second2.png' | relative_url  }}" width="1000">
 </article>
 
 {% comment %}
