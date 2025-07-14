@@ -20,4 +20,4 @@ title: Poster Program
 	{% endfor %}
 </table>
 
-{% include talkInfoJS.html %}
+{% include talkInfo.html %}
