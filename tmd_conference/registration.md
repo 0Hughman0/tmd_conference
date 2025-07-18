@@ -7,6 +7,8 @@ permalink: /registration/
 
 **[Click here to be redirected to the registration payment page](https://onlinesales.admin.cam.ac.uk/conferences-and-events/materials-science-metallurgy/2d-tmds/2d-tmds-2025)**
 
+### Please be aware that due to registering so close to the start if the conference, it will be difficult to guarantee that King's College can accommodate restricted dietary requirements for the Gala dinner on Monday evening.
+
 {% comment %}
 
 Due to limited capacity, we kindly ask that only participants with an invited talk or an accepted poster presentation register for the conference. Please send an email to the conference address for instructions on how to register.
@@ -14,8 +16,7 @@ Due to limited capacity, we kindly ask that only participants with an invited ta
 
 {% endcomment %}
  
-
-### Please be aware no refunds will be issued for cancellations after the 6th of July.
+### Please note that no refunds will be issued for cancellations after the 6th of July.
 
 
 Conference Fees
