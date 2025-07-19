@@ -7,7 +7,7 @@ permalink: /registration/
 
 **[Click here to be redirected to the registration payment page](https://onlinesales.admin.cam.ac.uk/conferences-and-events/materials-science-metallurgy/2d-tmds/2d-tmds-2025)**
 
-### Please be aware that due to registering so close to the start if the conference, it will be difficult to guarantee that King's College can accommodate restricted dietary requirements for the Gala dinner on Monday evening.
+### Please be aware that due to registering so close to the start of the conference, it will be difficult to guarantee that King's College can accommodate restricted dietary requirements for the Gala dinner on Monday evening.
 
 {% comment %}
 
@@ -51,7 +51,5 @@ Conference Fees
 
 -   Thursday, July 24th: Sit down lunch in Churchill College
  
-**In case of any problems with online payment, on-site payment will be
-available.**
- 
-**Please be aware no refunds will be issued for cancellations after the 6th of July.**
+**In case of any problems with online payment, on-site payment will be available. Please email Ana at the conference address to let her know you plan to do On Site Registration.**
+
