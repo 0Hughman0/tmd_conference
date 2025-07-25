@@ -74,8 +74,6 @@ Topics will include but are not limited to:
 
 ## Sponsors
 
-{% assign sponsors = "Aixtron.svg;attocube.jpg;HeidelbergInstruments.png;HenryRoyceInstitute.png;OxfordInstruments.png;Royal Society of Chemistry.png" | split: ";"  %}
-
 {% assign sponsors = "HenryRoyceInstitute.png;Aixtron.svg;molyon.png;weboftalents.png;RoyceCambridgelogo.jpg;APLEnergyElectronicslogo.jpg;Linkzilllogo.jpg;HeidelbergInstruments.png;Qlibri.png;nature materials.png;qamss.png" | split: ";"  %}
 
 
